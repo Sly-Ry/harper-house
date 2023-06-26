@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
+import { BrowserRouter } from 'react-router-dom';
+import './assets/styles/global.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename='/theatre-template' >
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
+
 
 reportWebVitals();
