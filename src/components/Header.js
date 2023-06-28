@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar";
-import ScreenReader from "../components/ScreenReader";
+import Navbar from "../layout/Navbar";
+import ScreenReader from "./ScreenReader";
 
 export default function Header() {
     return (

@@ -9,7 +9,7 @@ import { Home } from './pages/Home';
 // import { Support } from './pages/Support';
 import { Error } from './pages/Error'
 // import ThemeToggler from './utils/ThemeToggler';
-import Header from './layout/Header';
+import Header from './components/Header';
 
 export default function App() {
   return (
