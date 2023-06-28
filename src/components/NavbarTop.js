@@ -19,6 +19,9 @@ export default function NavbarTop() {
                 <li>
                     <a href="/calendar">CALENDAR</a>
                 </li>
+                <li>
+                    <a href="/signup-login">LOGIN</a>
+                </li>
             </ul>
         </div>
     ) 

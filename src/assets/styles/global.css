@@ -60,6 +60,11 @@ a:link:hover, a:visited:hover {
   color: rgb(255, 255, 255);
 }
 
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
 /* a.nav-bar__top-link:link, 
 a.nav-bar__top-link:visited {
   color: #c5c6cd;
