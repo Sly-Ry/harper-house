@@ -4,20 +4,20 @@ export default function NavbarTop() {
             <ul className="nav-bar__top container">
                 <li style={{marginRight: "auto"}}>
                     <a className="nav-bar__top-link" href="tel:#.###.###.###">
-                        <span style={{fontWeight: 'normal'}}>Call us at&nbsp;</span>1.800.HARPERS
+                        <span style={{fontWeight: 'normal'}}>Questions? Call us at&nbsp;</span>1.800.HARPERS
                     </a>
                 </li>
                 <li>
-                    <a href="/tickets">Tickets</a>
+                    <a href="/tickets">TICKETS</a>
                 </li>
                 <li>
-                    <a href="/support">Support Us</a>
+                    <a href="/subscribe">SUBSCRIBE</a>
                 </li>
                 <li>
-                    <a href="/donate">Donate</a>
+                    <a href="/donate">DONATE</a>
                 </li>
                 <li>
-                    <a href="/calendar">Calendar</a>
+                    <a href="/calendar">CALENDAR</a>
                 </li>
             </ul>
         </div>

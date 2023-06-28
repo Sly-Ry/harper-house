@@ -49,14 +49,18 @@ body {
   border: 0;
 }
 
-
 a:link, a:visited {
   text-decoration: none;
+  color: #c5c6cd;
   cursor: pointer;
   margin: 0;
 }
 
-a.nav-bar__top-link:link, 
+a:link:hover, a:visited:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* a.nav-bar__top-link:link, 
 a.nav-bar__top-link:visited {
   color: #c5c6cd;
-}
+} */
