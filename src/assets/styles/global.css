@@ -60,6 +60,10 @@ a:link:hover, a:visited:hover {
   color: rgb(255, 255, 255);
 }
 
+ul {
+  margin: 0;
+}
+
 li {
   text-decoration: none;
   list-style: none;
