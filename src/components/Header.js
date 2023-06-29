@@ -1,4 +1,4 @@
-import Navbar from "../layout/Navbar";
+import NavLayout from "../layout/NavLayout";
 import ScreenReader from "./ScreenReader";
 
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
             <ScreenReader />
             <header className="global-navigation-wrapper">
                 {/* Navigation Bar */}
-                <Navbar />
+                <NavLayout />
             </header>
         </> 
     )

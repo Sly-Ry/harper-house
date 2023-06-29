@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import DropdownItem from "./DropdownItem";
+import DropdownItems from './DropdownItems'
 
-export default function Dropdown() {
-
-    const [dropdown, setDropDown] = useState(false);
+export const Dropdown = ({submenus, dropdown, depthLevel }) => {
+    depthLevel = depthLevel + 1;
+    const dropdownClass = depthLevel > 1 ? " dropdown-submenu" : "";
 
     return (
-        <>
-            <li className="nav-bar__drop-menu"
-                    onMouseEnter={() => setDropDown(true)}
-                    onMouseLeave={() => setDropDown(false)}>
-                <a className="nav-bar__bottom-link" href="">
-                    SHOWS<span className='space'>&</span>EVENTS
-                </a>
-                {dropdown && <DropdownItem />}
-            </li>
-        </>
-    )
-}
+        <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+            {
+                submenus.map((submenu, index) => (
+                    <DropdownItems 
+                        items={submenu} 
+                        key={index} 
+                        depthLevel={depthLevel} 
+                    />
+                ))
+            }
+        </ul>
+    );
+};
