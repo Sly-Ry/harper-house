@@ -1,0 +1,75 @@
+/* body */
+.home {
+    background-color: rgb(0, 255, 179);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* JUMBOTRON CAROUSEL */
+/* img-slider */
+.jumbo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.jumbo .slide {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-height: 95vh;
+    overflow: hidden;
+}
+
+.jumbo .slide img {
+   width: 100%;
+}
+
+/* WELCOME TEXT */
+.jumbo .slide .info {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.info h2,
+.info p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.info h2 span {
+    font-weight: bold;
+}
+
+.info p {
+    position: absolute;
+    right: 7%;
+    font-size: 16px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1290px) {
+      
+    .jumbo .slide img {
+        min-width: 720px;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+
+    .jumbo .slide img {
+        width: 803px;
+        height: 537px;
+    }
+
+}

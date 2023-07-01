@@ -1,8 +1,13 @@
 // import '../assets/styles/Home'
+import JumbotronLayout from '../layout/JumbotronLayout'
+import '../assets/styles/Home.css'
 
 export function Home() {
     return (
-        <div className="Home">
-        </div>
+        <>
+            <div className="home">
+                <JumbotronLayout />
+            </div>
+        </>
     ) 
 }

@@ -9,9 +9,9 @@ export default function NavbarBottom() {
         <>
             <div className="nav-bar__bottom" aria-label="Main Menu">
                 <Link to='/' className='nav-bar__logo'>
-                    HARPER
-                    <span style={{color: 'red'}}><Icons.FaHome /></span>
-                    HOUSE
+                    <span>HARPER</span>
+                    <span className='icon' style={{color: 'red'}}><Icons.FaHome /></span>
+                    <span>HOUSE</span>
                 </Link>
                 <Navbar />
             </div>
