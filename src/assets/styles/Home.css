@@ -25,7 +25,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    max-height: 95vh;
+    max-height: 98vh;
     overflow: hidden;
 }
 
@@ -69,7 +69,6 @@
 
     .jumbo .slide img {
         width: 803px;
-        height: 537px;
     }
 
 }
