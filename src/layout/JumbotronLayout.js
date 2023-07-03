@@ -1,36 +1,43 @@
 // import { jumbotronItems } from '../data/JumbotronItems'
 
-import photo1 from '../assets/images/photo1.jpg'
-import photo2 from '../assets/images/photo2.jpg'
+// import photo1 from '../assets/images/photo1.jpg'
+// import photo2 from '../assets/images/photo2.jpg'
 import photo3 from '../assets/images/photo3.jpg'
-import photo4 from '../assets/images/photo4.jpg'
-import photo5 from '../assets/images/photo5.jpg'
-// import photo6 from '../assets/images/photo6.jpg'
-import photo7 from '../assets/images/photo7.jpg'
+// import photo4 from '../assets/images/photo4.jpg'
+// import photo5 from '../assets/images/photo5.jpg'
+import photo6 from '../assets/images/photo10.jpg'
 // import photo8 from '../assets/images/photo8.jpg'
 // import photo9 from '../assets/images/photo9.jpg'
 // import photo10 from '../assets/images/photo10.jpg'
 // import photo11 from '../assets/images/photo11.jpg'
-// import photo12 from '../assets/images/photo12.jpg'
 
 
 export default function JumbotronLayout() {
 
     // var slides = document.querySelectorAll('.slide');
-    // var btns = document.querySelectorAll('.btn');
+    // var btns = document.querySelectorAll('.slide_btn');
 
     // let currentSlide = 1;
 
-    // // var manuelNav = function(manuel){
-    // //     slides[manuel].classList.add('active');
-    // //     btns[manuel].classList.add('active');
-    // // };
+    // var manualNav = function(manuel){
+    //     slides.forEach((slide) => {
+    //         slide.classList.remove('active');
 
-    // // btns.forEach((btn, i) => {
-    // //     btn.addEventListener('click', () => {
-    // //         currentSlide = i;
-    // //     });
-    // // });
+    //         btns.forEach((btn) => {
+    //             btn.classList.remove('active');
+    //         });
+    //     });
+
+    //     slides[manuel].classList.add('active');
+    //     btns[manuel].classList.add('active');
+    // };
+
+    // btns.forEach((btn, i) => {
+    //     btn.addEventListener('click', () => {
+    //         manualNav(i);
+    //         currentSlide = i;
+    //     });
+    // });
 
     // var repeat = function(activeClass) {
     //     let active = document.getElementsByClassName('active');
@@ -58,12 +65,14 @@ export default function JumbotronLayout() {
     //         }, 10000);
     //     }
     //     repeater();
-    // }
+    // } 
+
+    // repeat();
 
     return ( 
         <>
         <div className="jumbo">
-                <div className='slide'>
+                {/* <div className='slide'>
                     <img src={photo1} alt="" />
                     <div className='info'>
                         <h2>Welcome to<span> HARPER HOUSE</span></h2>
@@ -76,7 +85,7 @@ export default function JumbotronLayout() {
                         <h2>Welcome to <span>HARPER HOUSE</span></h2>
                         <p>There's no place like home</p>
                     </div>
-                </div>
+                </div> */}
                 <div className='slide'>
                     <img src={photo3} alt="" />
                     <div className='info'>
@@ -84,7 +93,7 @@ export default function JumbotronLayout() {
                         <p>There's no place like home</p>
                     </div>
                 </div>
-                <div className='slide'>
+                {/* <div className='slide'>
                     <img src={photo4} alt="" />
                     <div className='info'>
                         <h2>Welcome to<span> HARPER HOUSE</span></h2>
@@ -98,21 +107,20 @@ export default function JumbotronLayout() {
                         <p>There's no place like home</p>
                     </div>
                 </div>
+                </div> */}
                 <div className='slide'>
-                    <img src={photo7} alt="" />
+                    <img src={photo6} alt="" />
                     <div className='info'>
                         <h2>Welcome to<span> HARPER HOUSE</span></h2>
                         <p>There's no place like home</p>
                     </div>
                 </div>
-            {/* <div className="navigation-manuel">
-                <label for='radio1' className="man-btn"></label>
-                <label for='radio2' className="man-btn"></label>
-                <label for='radio3' className="man-btn"></label>
-                <label for='radio4' className="man-btn"></label>
-            </div> */}
-        </div>
-            
+                {/* <div className="navigation">
+                    <div className="slide_btn"></div>
+                    <div className="slide_btn"></div>
+                    <div className="slide_btn"></div>*/}
+                
+            </div>
         </>
     )
 }
