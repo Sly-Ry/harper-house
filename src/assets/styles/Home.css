@@ -1,52 +1,15 @@
-/* body */
-.home {
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* JUMBOTRON CAROUSEL */
-/* img-slider */
-.jumbo {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: auto;
-    background: rgb(248, 48, 48);
-    z-index: 1;
-}
-
-.jumbo .slides {
-    width: 100%;
-}
-
-.jumbo .slide {
-    position: absolute;
+.carousel-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: auto;
     max-height: 98vh;
-    overflow: hidden;
-}
-
-.jumbo .slide.active {
-    
-}
-
-.jumbo .slide img {
-   width: 100%;
 }
 
 /* WELCOME TEXT */
-.jumbo .slide .info {
-    position: absolute;
-    top: 50%;
-    left: 10%;
+.info {
+    position: absolute;    
+    top: 46%;
+    left: 15%;
 }
 
 .info h2,
@@ -66,31 +29,11 @@
 }
 
 
-/* NAVIGATION BUTTONS */
-/* .jumbo .navigation {
-    background-color: red;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 200px;
-    right: 20px;
-    z-index: 2;
-}
-
-.jumbo .navigation .slide_btn {
-    background-color: rgba(255, 255, 255, 0.322);
-    margin-top: 30px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    /* display: none; 
-} */
-
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 1290px) {
       
-    .jumbo .slide img {
+    .jumbo .slide img,
+    .carousel-item img {
         min-width: 720px;
     }
 
@@ -98,7 +41,8 @@
 
 @media screen and (max-width: 820px){
 
-    .jumbo .slide img {
+    .jumbo .slide img,
+    .carousel-item img {
         width: 803px;
     }
 
