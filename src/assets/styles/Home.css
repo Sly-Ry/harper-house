@@ -26,6 +26,28 @@
 }
 
 
+/* UPCOMING CARD */
+/* 
+.upcoming-text {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+} */
+
+.card {
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.342);
+}
+
+.card-title,
+.card-text {
+    /* color: rgb(255, 255, 255); */
+}
+
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1290px) {
       
