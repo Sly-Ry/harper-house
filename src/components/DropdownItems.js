@@ -31,19 +31,21 @@ export default function DropdownItems({ items, depthLevel }) {
         >
             {items.submenu ? (
                 <>
-                    <button 
-                        type="button" 
-                        aria-haspopup="menu"
-                        aria-expanded ={dropdown ? 'true' : 'false'}
-                        onClick={() => setDropdown((prev) => !prev)}
-                    >
-                        {items.title} 
-                        {" "} 
-                        {depthLevel > 0 ? 
-                            <span>&raquo;</span> : 
-                            <span className="arrow"/>
-                        }
-                    </button> 
+                        <button 
+                            type="button" 
+                            aria-haspopup="menu"
+                            aria-expanded ={dropdown ? 'true' : 'false'}
+                            onClick={() => setDropdown((prev) => !prev)}
+                        >
+                        <a href={items.path} className="nav-main">
+                            {items.title} 
+                            {" "} 
+                            {depthLevel > 0 ? 
+                                <span>&raquo;</span> : 
+                                <span className="arrow"/>
+                            }
+                        </a> 
+                        </button>  
                     <Dropdown 
                         depthLevel={depthLevel}
                         submenus={items.submenu} 
@@ -51,7 +53,7 @@ export default function DropdownItems({ items, depthLevel }) {
                     /> 
                 </>
                 ) : ( 
-                    <a href="/#"> {items.title}</a>
+                    <a href={items.path}> {items.title}</a>
                 )
             } 
         </li>

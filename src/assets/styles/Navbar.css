@@ -70,19 +70,19 @@ a.nav-bar__top-link:visited,
 
 .menus {
     display: flex;
-    align-items: center;
     list-style: none;
     width: 75vw;
     justify-content: flex-end;
 }
 
-.menus button:not(.dropdown .drop-items button) {
-    margin-right: 40px;
+.menus button,
+.menus .drop-items 
+{   
     width: auto;
     font-size: 18px;
 }
 
-.menus .drop-items {
+.drop-items {
     font-size: 15px;
 }
 
@@ -108,16 +108,19 @@ a.nav-bar__top-link:visited,
     display: none;
 }
 
-.dropdown .drop-items a, 
-.dropdown .drop-items button 
+.dropdown .drop-items a
 {
     color: rgb(95, 95, 95);
     width: 100%;
     font-size: inherit;
+    padding-left: 30px;
 }
 
-.dropdown .drop-items a:hover, 
-.dropdown .drop-items button:hover 
+.nav-main {
+    margin-left: -10px;
+}
+
+.dropdown .drop-items a:hover:not(.nav-main)
 {
     color: rgb(255, 255, 255);
     background: rgba(202, 41, 41, 0.849);
@@ -137,7 +140,7 @@ a.nav-bar__top-link:visited,
     cursor: pointer;
 }
 
-.drop-items a {
+.drop-items a:not(.nav-main) {
     display: block;
     color: rgba(0, 0, 0, 0.548);
     font-family: Arial, sans-serif;
@@ -145,7 +148,7 @@ a.nav-bar__top-link:visited,
     text-decoration: none;
 }
 
-.drop-items button,
+.menus button,
 .drop-items a  {
     text-align: left;
     padding: 20px 0 25px 20px

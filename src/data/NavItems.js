@@ -2,7 +2,7 @@ export const navItems = [
     {
         id: 1,
         title: 'SHOWS & EVENTS',
-        path: '',
+        path: '/shows-events',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
@@ -40,7 +40,7 @@ export const navItems = [
     {
         id: 2,
         title: 'VISITING',
-        path: '',
+        path: '/visit',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
@@ -85,7 +85,7 @@ export const navItems = [
     {
         id: 3,
         title: 'ARCHIVES',
-        path: '',
+        path: '/archives',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
@@ -108,7 +108,7 @@ export const navItems = [
     {
         id: 4,
         title: 'SUPPORT US',
-        path: '',
+        path: '/support',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
@@ -134,11 +134,6 @@ export const navItems = [
                 ]
             },
             {
-                id: 2,
-                title: 'Donate',
-                path: '',
-            },
-            {
                 id: 3,
                 title: 'Sponsorship',
                 path: '',
@@ -159,13 +154,18 @@ export const navItems = [
                         path: '',
                     },
                 ]
+            },
+            {
+                id: 2,
+                title: 'Donate',
+                path: '',
             }
         ]
     },
     {
         id: 5,
         title: 'OPPORTUNITY',
-        path: '',
+        path: '/oppo',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
@@ -198,7 +198,7 @@ export const navItems = [
     {
         id: 6,
         title: 'ABOUT US',
-        path: '',
+        path: '/about',
         cName: 'nav-bar__drop-menu',
         submenu: [
             {
