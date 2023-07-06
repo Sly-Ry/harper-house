@@ -8,21 +8,21 @@ export default function ExtensionsLayout() {
             <div className="special container-fluid">
                 <div className="
                     row
-                    px-5
-                    pt-5
+                    py-5
                     d-flex 
                     justify-content-evenly 
                     align-items-center"
                 >
                     {/* Subscribe Box */}
-                    <div className="col-5">
+                    <div className="col-4">
                         <div className="
-                            card 
+                            card
                             bg-dark 
-                            text-white"
+                            text-white
+                            rounded-0"
                         >
                             <a href="/subscribe">
-                                <img src={subscribePhoto} className="card-img rounded-2 p-5" alt="" />
+                                <img src={subscribePhoto} className="card-img  px-5" alt="" />
                             </a>
                             <div className="
                                 card-img-overlay
@@ -39,14 +39,15 @@ export default function ExtensionsLayout() {
                     </div>
 
                     {/* Volunteer Box */}
-                    <div className="col-5">
+                    <div className="col-4">
                         <div className="
                             card 
                             bg-dark 
-                            text-white"
+                            text-white
+                            rounded-0"
                         >
                             <a href="/oppo">
-                                <img src={joinPhoto} className="card-img rounded-0 p-5" alt="" />
+                                <img src={joinPhoto} className="card-img px-5" alt="" />
                             </a>
                             <div className="
                                 card-img-overlay
@@ -61,10 +62,10 @@ export default function ExtensionsLayout() {
                             </div>
                         </div>
                     </div>
-                    {/* divider */}
-                    <div className="bar"></div>
                 </div>
             </div>
+            {/* divider */}
+            <div className="bar"></div>
         </>
     )
 }

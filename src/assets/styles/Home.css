@@ -1,15 +1,17 @@
 .bar {
-    padding-top: 50px;
+    padding-top: 1px;
     width: 100%;
-    border-bottom: 2px solid rgba(114, 0, 0, 0.555);
+    border-bottom: 2px solid rgb(175, 114, 0);
     border-radius: 2px;
 }
 
+
+/* JUMBOTRON SECTION */
 .carousel-item {
     max-height: 98vh;
 }
 
-/* WELCOME TEXT */
+/* -- WELCOME TEXT -- */
 .info {
     position: absolute;    
     top: 46%;
@@ -33,26 +35,33 @@
 }
 
 
-/* UPCOMING CARD */
+/* UPCOMING SECTION */
 .card {
     border: none;
 }
 
-.upcoming .card {
-    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.342);
+.upcoming-header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
+.upcoming .card {
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.342);
+}
+
+
+/* EXTENSIONS SECTION */
 .special .row {
     background-color: rgba(114, 0, 0, 0.911);
 }
 
 .special img {
-    border: 5px solid rgba(158, 140, 38, 0.904);
+    /* border: 5px solid rgba(158, 140, 38, 0.904); */
     box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.507);
-    border-radius: 40px;
+    opacity: .8;
 }
 
-.special img:hover {
+.special img:focus {
     border: 5px solid rgba(255, 237, 136, 0.904);
     box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.507);
 }

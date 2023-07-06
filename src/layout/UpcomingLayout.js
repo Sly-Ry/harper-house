@@ -1,11 +1,12 @@
-import photo2 from '../assets/images/photo2.jpg'
+import productionRed from '../assets/images/production_red.jpg'
 
 export default function UpcomingLayout() {
     return (
         <>
             <div className='upcoming container-fluid'>
                 <div className="
-                    row 
+                    row
+                    pb-5 
                     bg-white 
                     d-flex 
                     justify-content-center 
@@ -19,12 +20,13 @@ export default function UpcomingLayout() {
                         pb-0"
                     >
                         <h2 className='
+                            upcoming-header
                             text-center 
                             fs-1 
-                            mb-5'
+                            mb-4'
                         >Upcoming Events</h2>
                         <div className="card py-3">
-                            <img src={photo2} className="card-img-top rounded-0" alt=""/>
+                            <img src={productionRed} className="card-img-top rounded-0" alt=""/>
                             <div className="
                                 card-body 
                                 text-center"
@@ -38,9 +40,10 @@ export default function UpcomingLayout() {
                             </div>
                         </div>
                     </div>
-                    <div className="bar"></div>
                 </div>
             </div>
+            {/* divider */}
+            <div className="bar"></div>
         </>
     )
 }

@@ -23,7 +23,6 @@ export function Home() {
                         align-items-start
                         fs-6"
                     >
-
                         <div className="
                             col-3 
                             d-flex
@@ -54,9 +53,15 @@ export function Home() {
                                     {/* FEATURE: HOME ADDRESS */}
                                     {/* <li className="list-group-item">Street Adress</li> */}
                                     <div className="icons fs-4">
-                                        <i className="bi bi-facebook"></i>
-                                        <i className="bi bi-twitter"></i>
-                                        <i className="bi bi-instagram"></i>
+                                        <a href="/">
+                                            <i className="bi bi-facebook"></i>
+                                        </a>
+                                        <a href="/">
+                                            <i className="bi bi-twitter"></i>
+                                        </a>
+                                        <a href="/">
+                                            <i className="bi bi-instagram"></i>
+                                        </a>
                                     </div>
                                 </ul>
                             </div>
@@ -71,19 +76,11 @@ export function Home() {
                                     <h5>YEARLY SPONSORS</h5>
                                 </div>
                                 <ul className="list-group list-group-flush">
-                                    <a href="/">
-                                        <li className="list-group-item">Sponsor 1</li>
-                                    </a>
-                                    <a href="/">
-                                        <li className="list-group-item">Support 2</li>
-                                    </a>
-                                    <a href="/">
-                                        <li className="list-group-item">Sponsor 3</li>
-                                    </a>
-                                    <a href="/">
-                                        <li className="list-group-item">Support 4</li>
-                                    </a>
-                                </ul>
+                                    <li className="list-group-item">Sponsor 1</li>
+                                    <li className="list-group-item">Support 2</li>
+                                    <li className="list-group-item">Sponsor 3</li>
+                                    <li className="list-group-item">Support 4</li>
+                            </ul>
                             </div>
                         </div>
                     </div>
