@@ -1,13 +1,8 @@
-#btn-back-to-top {
-    position: fixed;
-    bottom: 0;
-    right: 40px;
-    border-radius: 5px px 0 0;
-    display: none;
-}
-
-#btn-back-to-top {
-
+.bar {
+    padding-top: 50px;
+    width: 100%;
+    border-bottom: 2px solid rgba(114, 0, 0, 0.555);
+    border-radius: 2px;
 }
 
 .carousel-item {
@@ -47,13 +42,6 @@
     box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.342);
 }
 
-.bar {
-    padding-top: 50px;
-    width: 100%;
-    border-bottom: 2px solid rgba(114, 0, 0, 0.555);
-    border-radius: 2px;
-}
-
 .special .row {
     background-color: rgba(114, 0, 0, 0.911);
 }
@@ -73,6 +61,7 @@
 .footer {
     background-color: rgb(58, 32, 32);
 }
+
 
 .footer .card-header {
     font-family: Arial, Helvetica, sans-serif;
@@ -112,7 +101,6 @@
     background-color: transparent;
     border: none;
 }
-
 
 
 /* MEDIA QUERIES */

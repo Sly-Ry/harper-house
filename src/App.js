@@ -10,6 +10,7 @@ import { Home } from './pages/Home';
 import { Error } from './pages/Error'
 // import ThemeToggler from './utils/ThemeToggler';
 import Header from './components/Header';
+import ScrollToTop from "react-scroll-to-top";
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
     {/* <ThemeToggler /> */}
     <Header />
     <Routes>
-      <Route exact path='/' element={<Home />} />
+      <Route eexact path='/' element={<Home />} />
       {/* <Route exact path='/about' element={<About />} />
       <Route exact path='/archive' element={<Archive />} />
       <Route exact path='/contact' elemtent={<Contact />} />
@@ -27,6 +28,25 @@ export default function App() {
       <Route exact path='/support' element={<Support />} /> */}
       <Route exact path='*' element={<Error />}/>
     </Routes>
+    {/* Back to top button */}
+    <ScrollToTop 
+      smooth 
+      className='scrolltab'
+      color='white'
+      style={{
+        backgroundColor: 'maroon',
+        width: 65, 
+        height: 55,
+        position:'fixed',
+        bottom: 0,
+        right: 50,
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0
+      }}
+      />
+
     </>
   );
 }

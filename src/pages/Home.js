@@ -3,51 +3,13 @@ import UpcomingLayout from '../layout/UpcomingLayout'
 import ExtensionsLayout from '../layout/ExtensionsLayout'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import '../assets/styles/Home.css'
-import { useEffect, useState } from 'react';
-
-// import subscribePhoto from '../assets/images/subscribe.jpg'
-// import joinPhoto from '../assets/images/join-team.jpg'
 
 
-
-
-export function Home() {
-
-    const [backToTop, setBackToTop] = useState(false);
-
-    useEffect(() => {
-        
-        function scrollFunction() {
-            if (window.scrollY > 100) {
-                setBackToTop(true);
-            } 
-            else {
-                setBackToTop(false);
-            }
-        }
-    }, []);
-
-    const scrollUp = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    };
+export function Home() {    
 
     return (
         <>
             <div className="home">
-            {/* Back to top button */}
-            {backToTop && (  
-                <button
-                    type="button"
-                    className="btn btn-danger btn-floating btn-lg"
-                    id="btn-back-to-top"
-                    onClick={scrollUp}
-                >
-                    <i class="fas fa-arrow-up"></i>
-                </button>
-            )}
                 <JumbotronLayout />
                 <UpcomingLayout />
                 <ExtensionsLayout />
@@ -109,10 +71,18 @@ export function Home() {
                                     <h5>YEARLY SPONSORS</h5>
                                 </div>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item">Sponsor 1</li>
-                                    <li className="list-group-item">Support 2</li>
-                                    <li className="list-group-item">Sponsor 3</li>
-                                    <li className="list-group-item">Support 4</li>
+                                    <a href="/">
+                                        <li className="list-group-item">Sponsor 1</li>
+                                    </a>
+                                    <a href="/">
+                                        <li className="list-group-item">Support 2</li>
+                                    </a>
+                                    <a href="/">
+                                        <li className="list-group-item">Sponsor 3</li>
+                                    </a>
+                                    <a href="/">
+                                        <li className="list-group-item">Support 4</li>
+                                    </a>
                                 </ul>
                             </div>
                         </div>

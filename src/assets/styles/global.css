@@ -68,7 +68,8 @@ li {
   list-style: none;
 }
 
-/* a.nav-bar__top-link:link, 
-a.nav-bar__top-link:visited {
-  color: #c5c6cd;
-} */
+.scrolltab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
