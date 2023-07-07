@@ -1,8 +1,13 @@
 // import '../assets/styles/About'
+import Banner from '../components/Banner'
 
 export function About() {
     return (
-        <div className="About">
-        </div>
+        <>
+            <div className="about">
+            {/* Banner */}
+            <Banner />
+            </div>
+        </>
     ) 
 }

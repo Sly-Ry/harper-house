@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { ShowsEvents } from './pages/Shows-Events';
+import { Visiting } from './pages/Visit';
 // import { About } from './pages/About';
 // import { Archive } from './pages/Archive';
 // import { Contact } from './pages/Contact';
@@ -20,6 +21,7 @@ export default function App() {
     <Routes>
       <Route exact path='/' element={<Home />} />
       <Route exact path='/shows-events' element={<ShowsEvents />} />
+      <Route exact path='/visit' element={<Visiting />} />
       {/* <Route exact path='/about' element={<About />} />
       <Route exact path='/archive' element={<Archive />} />
       <Route exact path='/contact' elemtent={<Contact />} />

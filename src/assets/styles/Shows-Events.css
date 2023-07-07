@@ -2,24 +2,3 @@
     background-color: green;
 }
 
-/* banner */
-.banner {
-    max-height: 78vh;
-}
-
-/* -- WELCOME TEXT -- */
-.banner-text {
-    position: absolute;    
-    top: 40%;
-    left: 35%;
-}
-
-.banner-text h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5rem;
-    color: white;
-}
-
-.banner-text h2 span {
-    font-weight: bold;
-}
