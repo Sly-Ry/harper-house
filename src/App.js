@@ -18,7 +18,7 @@ export default function App() {
     {/* <ThemeToggler /> */}
     <Header />
     <Routes>
-      <Route eexact path='/' element={<Home />} />
+      <Route exact path='/' element={<Home />} />
       <Route exact path='/shows-events' element={<ShowsEvents />} />
       {/* <Route exact path='/about' element={<About />} />
       <Route exact path='/archive' element={<Archive />} />

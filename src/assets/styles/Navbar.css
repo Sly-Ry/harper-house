@@ -75,18 +75,43 @@ a.nav-bar__top-link:visited,
     justify-content: flex-end;
 }
 
-.menus button,
-.menus .drop-items 
-{   
-    width: auto;
-    font-size: 18px;
+.drop-items {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-right: 20px;
 }
 
-.drop-items {
-    font-size: 15px;
+/* .menus button */
+.drop-items button
+{   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    
+    background-color: transparent;
 }
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.548);
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+/* -- arror piece -- */
 
 .arrow::after {
+    margin-left: 7px;
     color: rgb(136, 136, 136);
     content: "";
     display: inline-block;
@@ -94,6 +119,12 @@ a.nav-bar__top-link:visited,
     border-top: 0.42em solid;
     border-right: 0.32em solid transparent;
     border-left: 0.32em solid transparent;
+    transition: color .4s ease-in-out;
+}
+
+a:link:hover .arrow::after,
+a:visited:hover .arrow::after  {
+    color: rgb(255, 230, 90);
 }
 
 /* -- dropdown menu -- */
@@ -108,55 +139,22 @@ a.nav-bar__top-link:visited,
     display: none;
 }
 
+.dropdown .drop-items {
+    margin: 0;
+}
+
 .dropdown .drop-items a
 {
-    color: rgb(95, 95, 95);
+    padding: 25px 30px;
+    color: rgb(77, 77, 77);
     width: 100%;
-    font-size: inherit;
-    padding-left: 30px;
+    font-size: 15px;
 }
 
-.nav-main {
-    margin-left: -10px;
-}
-
-.dropdown .drop-items a:hover:not(.nav-main)
+.dropdown .drop-items a:hover
 {
     color: rgb(255, 255, 255);
     background: rgba(202, 41, 41, 0.849);
-}
-
-.drop-items {
-    position: relative;
-    display: flex;
-    height: 100%;
-    font-size: inherit;
-}
-
-.drop-items button {
-    color: rgb(226, 226, 226);
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.drop-items a:not(.nav-main) {
-    display: block;
-    color: rgba(0, 0, 0, 0.548);
-    font-family: Arial, sans-serif;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-.menus button,
-.drop-items a  {
-    text-align: left;
-    padding: 20px 0 25px 20px
-}
-
-.drop-items a:hover,
-.drop-items button:hover {
-    color: rgb(182, 118, 0);
 }
 
 .dropdown.show {
@@ -166,6 +164,7 @@ a.nav-bar__top-link:visited,
 /* -- submenu left/right position -- */
 .dropdown.dropdown-submenu {
     position: absolute;
+    width: 12rem;
     left: 100%;
     top: 1px;
 }

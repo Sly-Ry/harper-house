@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { NavLink } from "react-router-dom";
 import { Dropdown } from "./Dropdown";
 
 export default function DropdownItems({ items, depthLevel }) {
@@ -37,14 +38,14 @@ export default function DropdownItems({ items, depthLevel }) {
                             aria-expanded ={dropdown ? 'true' : 'false'}
                             onClick={() => setDropdown((prev) => !prev)}
                         >
-                        <a href={items.path} className="nav-main">
-                            {items.title} 
-                            {" "} 
-                            {depthLevel > 0 ? 
-                                <span>&raquo;</span> : 
-                                <span className="arrow"/>
-                            }
-                        </a> 
+                            <NavLink to={items.path} className='nav-main'>
+                                {items.title} 
+                                {" "} 
+                                {depthLevel > 0 ? 
+                                    <span>&raquo;</span> : 
+                                    <span className="arrow"/>
+                                }
+                            </NavLink>
                         </button>  
                     <Dropdown 
                         depthLevel={depthLevel}
