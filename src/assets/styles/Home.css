@@ -11,28 +11,7 @@
     max-height: 98vh;
 }
 
-/* -- WELCOME TEXT -- */
-.info {
-    position: absolute;    
-    top: 46%;
-    left: 15%;
-}
-
-.info h2,
-.info p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
-
-.info h2 span {
-    font-weight: bold;
-}
-
-.info p {
-    position: absolute;
-    right: 7%;
-    font-size: 16px;
-}
+c
 
 
 /* UPCOMING SECTION */

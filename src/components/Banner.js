@@ -1,16 +1,15 @@
-import photo1 from '../assets/images/photo1.jpg'
+import photo4 from '../assets/images/photo4.jpg'
 
 export default function Banner() {
 
     return ( 
         <>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div>
                 <div className="carousel-inner">
-                    <div className="carousel-item" data-bs-interval="8000">
-                        <img src={photo1} className="d-block w-100" alt=""/>
-                        <div className='info'>
-                            <h2>Welcome to<span> HARPER HOUSE</span></h2>
-                            <p>There's no place like home</p>
+                    <div className="banner" data-bs-interval="8000">
+                        <img src={photo4} className="d-block w-100" alt=""/>
+                        <div className='banner-text'>
+                            <h2>SHOWS & EVENTS</h2>
                         </div>
                     </div>
                 </div>
