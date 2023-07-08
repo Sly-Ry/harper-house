@@ -3,12 +3,11 @@ export const navItems = [
         id: 1,
         title: 'SHOWS & EVENTS',
         path: '/shows-events',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,
                 title: 'Current Season',
-                path: '',
+                path: '/current',
             },
             {
                 id: 2,
@@ -41,7 +40,6 @@ export const navItems = [
         id: 2,
         title: 'VISITING',
         path: '/visit',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,
@@ -86,7 +84,6 @@ export const navItems = [
         id: 3,
         title: 'ARCHIVES',
         path: '/archives',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,
@@ -109,7 +106,6 @@ export const navItems = [
         id: 4,
         title: 'SUPPORT US',
         path: '/support',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,
@@ -166,7 +162,6 @@ export const navItems = [
         id: 5,
         title: 'OPPORTUNITY',
         path: '/oppo',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,
@@ -199,7 +194,6 @@ export const navItems = [
         id: 6,
         title: 'ABOUT US',
         path: '/about',
-        cName: 'nav-bar__drop-menu',
         submenu: [
             {
                 id: 1,

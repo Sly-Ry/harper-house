@@ -11,6 +11,7 @@ import { Visiting } from './pages/Visit';
 import { Error } from './pages/Error'
 // import ThemeToggler from './utils/ThemeToggler';
 import Header from './components/Header';
+import Footer from './layout/FooterLayout';
 import ScrollToTop from "react-scroll-to-top";
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
       <Route exact path='*' element={<Error />}/>
     </Routes>
     {/* Back to top button */}
+    <Footer />
     <ScrollToTop 
       smooth 
       className='scrolltab'

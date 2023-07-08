@@ -12,21 +12,30 @@ export default function JumbotronLayout() {
                             <img src={photo1} className="d-block w-100" alt=""/>
                             <div className='info'>
                                 <h2>Welcome to<span> HARPER HOUSE</span></h2>
-                                <p>There's no place like home</p>
+                                <div className="info-box">
+                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote-author'> - <span>Dorothy</span></p>
+                                </div>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="8000">
                             <img src={photo2} className="d-block w-100" alt=""/>
                             <div className='info'>
                                 <h2>Welcome to<span> HARPER HOUSE</span></h2>
-                                <p>There's no place like home</p>
+                                <div className="info-box">
+                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote-author'> - <span>Dorothy</span></p>
+                                </div>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="8000">
                             <img src={photo3} className="d-block w-100" alt=""/>
                             <div className='info'>
                                 <h2>Welcome to<span> HARPER HOUSE</span></h2>
-                                <p>There's no place like home</p>
+                                <div className="info-box">
+                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote-author'> - <span>Dorothy</span></p>
+                                </div>
                             </div>
                         </div>
                     </div>

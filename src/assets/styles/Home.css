@@ -11,6 +11,40 @@
     max-height: 98vh;
 }
 
+.info {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.info-box {
+    text-align: end;
+}
+
+.info p {
+    margin-left: 50%;
+    font-size: 1rem;
+}
+
+.info h2 {
+    font-size: 2rem;
+}
+
+.quote-author {
+    margin-top: -10px;
+    
+}
+  
+.info h2,
+.info p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+  
+.info h2 span {
+    font-weight: bold;
+}
+
 
 /* UPCOMING SECTION */
 .card {
