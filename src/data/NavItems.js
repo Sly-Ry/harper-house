@@ -1,3 +1,5 @@
+import photo3 from '../assets/images/photo3.jpg'
+
 export const navItems = [
     {
         id: 1,
@@ -7,32 +9,44 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Current Season',
-                path: '/current',
+                path: '/current-season',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Coming Soon',
-                path: '',
+                path: '/coming-soon',
+                photo: photo3,
+                text: "What's to come."
             },
             {
                 id: 3,
                 title: 'Season Pass',
-                path: '',
+                path: '/season-pass',
+                photo: photo3,
+                text: "Stay a while."
             },
             {
                 id: 4,
                 title: 'Subscribe',
-                path: '',
+                path: '/subscribe',
+                photo: photo3,
+                text: "Wander the halls."
             },
             {
                 id: 5,
                 title: 'Discounts',
-                path: '',
+                path: '/discounts',
+                photo: photo3,
+                text: "Quid pro quo."
             },
             {
                 id: 6,
                 title: 'Calendar',
-                path: '',
+                path: '/calendar',
+                photo: photo3,
+                text: "Chart the course."
             }
         ]
     },
