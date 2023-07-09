@@ -175,6 +175,8 @@ export const navItems = [
                 id: 3,
                 title: 'Sponsorship',
                 path: '/sponsorship',
+                photo: photo3,
+                text: "What's in store.",
                 submenu: [
                     {
                         id: 1,

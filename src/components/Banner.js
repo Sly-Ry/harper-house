@@ -12,7 +12,7 @@ export default function Banner({ title }) {
                         {navItems.map(menu => {
                             if (title === menu.title){
                                 return (
-                                    <div className='banner-text'>
+                                    <div key={menu.id} className='banner-text'>
                                         <h2>{menu.title}</h2>
                                     </div>
                                 );

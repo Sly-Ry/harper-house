@@ -19,15 +19,15 @@ export default function CardLink({ title }) {
                                 <>
                                     {menu.submenu.map(item => {
                                         return (
-                                            <div className="col-12 col-md-12 col-lg-4 m-5">
+                                            <div key={item.id} className="col-12 col-md-12 col-lg-4 m-5">
                                                 <div className="card rounded-0">
                                                     <img src={item.photo} className="card-img-top p-3 pb-0" alt="" />
-                                                    <div class="card-body px-5 pt-3 pb-4">
+                                                    <div className="card-body px-5 pt-3 pb-4">
                                                         <h1 className="card-title">{item.title}</h1>
-                                                        <p class="card-text">{item.text}</p>
+                                                        <p className="card-text">{item.text}</p>
                                                         <div className='bar'></div>
-                                                        <NavLink to="/current-season">
-                                                            <p>Query?</p>
+                                                        <NavLink to={item.path}>
+                                                            <p>inQuery?</p>
                                                         </NavLink>
                                                     </div>
                                                 </div>
