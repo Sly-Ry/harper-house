@@ -13,7 +13,9 @@ export default function UpcomingLayout() {
                 >
                     <div className="
                         col-12
-                        col-xxl-7
+                        col-md-10
+                        col-lg-8
+                        col-xl-6
                         mb-1
                         p-5
                         pb-0"

@@ -14,12 +14,13 @@ export default function ExtensionsLayout() {
                     align-items-center"
                 >
                     {/* Subscribe Box */}
-                    <div className="col-4">
+                    <div className="col-12 col-md-10 col-lg-6 col-xl-5">
                         <div className="
                             card
                             bg-dark 
                             text-white
-                            rounded-0"
+                            rounded-0
+                            m-4"
                         >
                             <a href="/subscribe">
                                 <img src={subscribePhoto} className="card-img  px-5" alt="" />
@@ -39,12 +40,13 @@ export default function ExtensionsLayout() {
                     </div>
 
                     {/* Volunteer Box */}
-                    <div className="col-4">
+                    <div className="col-12 col-md-10 col-lg-6 col-xl-5">
                         <div className="
                             card 
                             bg-dark 
                             text-white
-                            rounded-0"
+                            rounded-
+                            m-4"
                         >
                             <a href="/oppo">
                                 <img src={joinPhoto} className="card-img px-5" alt="" />
