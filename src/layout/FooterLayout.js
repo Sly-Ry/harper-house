@@ -1,10 +1,10 @@
 export default function Footer() {
     return (
         <>
-            <div className="footer container-fluid py-5">
+            <div className="footer container-fluid py-0">
                 <div className="
                     row
-                    py-5
+                    py-2
                     d-flex
                     justify-content-center
                     align-items-start

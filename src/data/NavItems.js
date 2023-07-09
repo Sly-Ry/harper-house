@@ -58,39 +58,53 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Venues',
-                path: '',
+                path: '/venues',
+                photo: photo3,
+                text: "Stay a while.",
                 submenu: [
                     {
                         id: 1,
                         title: 'The Red Deck',
-                        path: '',
+                        path: '/',
+                        photo: photo3,
+                        text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'The Gallery',
-                        path: '',
+                        path: '/',
+                        photo: photo3,
+                        text: "What's in store."
                     }
                 ]
             },
             {
                 id: 2,
                 title: 'Parking',
-                path: '',
+                path: '/parking',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Tours',
-                path: '',
+                path: '/tours',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Accessibility',
-                path: '',
+                path: '/accessibility',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 5,
                 title: 'FAQ',
-                path: '',
+                path: '/faq',
+                photo: photo3,
+                text: "What's in store."
             }
         ]
     },
@@ -102,17 +116,23 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Videos',
-                path: '',
+                path: '/videos',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Photos',
-                path: '',
+                path: '/photos',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Documents',
-                path: '',
+                path: '/documents',
+                photo: photo3,
+                text: "What's in store."
             }
         ]
     },
@@ -124,51 +144,67 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Offering',
-                path: '',
+                path: '/offering',
+                photo: photo3,
+                text: "What's in store.",
                 submenu: [
                     {
                         id: 1,
                         title: 'How To',
-                        path: '',
+                        path: '/how-to',
+                        photo: photo3,
+                        text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'Membership',
-                        path: '',
+                        path: '/membership',
+                        photo: photo3,
+                        text: "What's in store."
                     },
-                    {
-                        id: 3,
-                        title: '',
-                        path: '',
-                    },
+                    // {
+                    //     id: 3,
+                    //     title: '',
+                    //     path: '',
+                    //     photo: photo3,
+                    //     text: "What's in store."
+                    // },
                 ]
             },
             {
                 id: 3,
                 title: 'Sponsorship',
-                path: '',
+                path: '/sponsorship',
                 submenu: [
                     {
                         id: 1,
                         title: 'Community',
-                        path: '',
+                        path: '/community',
+                        photo: photo3,
+                        text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'Corporate',
-                        path: '',
+                        path: '/corporate',
+                        photo: photo3,
+                        text: "What's in store."
                     },
                     {
                         id: 3,
                         title: 'Individual',
-                        path: '',
+                        path: '/individual',
+                        photo: photo3,
+                        text: "What's in store."
                     },
                 ]
             },
             {
                 id: 2,
                 title: 'Donate',
-                path: '',
+                path: '/donate',
+                photo: photo3,
+                text: "What's in store."
             }
         ]
     },
@@ -180,27 +216,37 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Working at Harper',
-                path: '',
+                path: '/working-at',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Auditions',
-                path: '',
+                path: '/auditions',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Internship',
-                path: '',
+                path: '/internship',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Volunteer',
-                path: '',
+                path: '/volunteer',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 5,
                 title: 'Rentals',
-                path: '',
+                path: '/rentals',
+                photo: photo3,
+                text: "What's in store."
             }
         ]
     },
@@ -212,60 +258,80 @@ export const navItems = [
             {
                 id: 1,
                 title: 'The Theatre',
-                path: '',
+                path: '/the-theatre',
+                photo: photo3,
+                text: "What's in store.",
                 submenu: [
                     {
                         id: 1,
                         title: 'About Harper House',
-                        path: '',
+                        path: '/about-us',
+                        photo: photo3,
+                        text: "What's in store."
                         
                     },
                     {
                         id: 2,
                         title: 'History',
-                        path: '',
+                        path: '/history',
+                        photo: photo3,
+                        text: "What's in store."
                         
                     },
                     {
                         id: 3,
                         title: 'Diversity & Inclusion',
-                        path: '',
+                        path: '/diversity',
+                        photo: photo3,
+                        text: "What's in store."
                     }
                 ]
             },
             {
                 id: 2,
                 title: 'The Team',
-                path: '',
+                path: '/the-team',
+                photo: photo3,
+                text: "What's in store.",
                 submenu: [
                     {
                         id: 1,
                         title: 'Leadership',
-                        path: '',
+                        path: '/leadership',
+                        photo: photo3,
+                        text: "What's in store."
                         
                     },
                     {
                         id: 2,
                         title: 'Staff',
-                        path: '',
+                        path: '/staff',
+                        photo: photo3,
+                        text: "What's in store."
                         
                     },
                     {
                         id: 3,
                         title: 'Board of Trustees',
-                        path: '',
+                        path: '/board',
+                        photo: photo3,
+                        text: "What's in store."
                     }
                 ]
             },
             {
                 id: 3,
                 title: 'FAQ',
-                path: '',
+                path: '/faq',
+                photo: photo3,
+                text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Contact',
-                path: '',
+                path: '/contact',
+                photo: photo3,
+                text: "What's in store."
             }
         ]
     },

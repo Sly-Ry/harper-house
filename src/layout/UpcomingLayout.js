@@ -6,8 +6,7 @@ export default function UpcomingLayout() {
             <div className='upcoming container-fluid'>
                 <div className="
                     row
-                    pb-5 
-                    bg-white 
+                    pb-5
                     d-flex 
                     justify-content-center 
                     align-items-center"

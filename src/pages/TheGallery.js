@@ -1,6 +1,6 @@
-// import '../assets/styles/Gallery'
+// import '../assets/styles/TheGallery'
 
-export function Gallery() {
+export function TheGallery() {
     return (
         <div className="Gallery">
         </div>
