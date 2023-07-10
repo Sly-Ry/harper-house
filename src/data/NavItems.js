@@ -9,42 +9,42 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Current Season',
-                path: '/current-season',
+                path: 'current-season',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Coming Soon',
-                path: '/coming-soon',
+                path: 'coming-soon',
                 photo: photo3,
                 text: "What's to come."
             },
             {
                 id: 3,
                 title: 'Season Pass',
-                path: '/season-pass',
+                path: 'season-pass',
                 photo: photo3,
                 text: "Stay a while."
             },
             {
                 id: 4,
                 title: 'Subscribe',
-                path: '/subscribe',
+                path: 'subscribe',
                 photo: photo3,
                 text: "Wander the halls."
             },
             {
                 id: 5,
                 title: 'Discounts',
-                path: '/discounts',
+                path: 'discounts',
                 photo: photo3,
                 text: "Quid pro quo."
             },
             {
                 id: 6,
                 title: 'Calendar',
-                path: '/calendar',
+                path: 'calendar',
                 photo: photo3,
                 text: "Chart the course."
             }
@@ -65,14 +65,14 @@ export const navItems = [
                     {
                         id: 1,
                         title: 'The Red Deck',
-                        path: '/',
+                        path: 'the-red-deck',
                         photo: photo3,
                         text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'The Gallery',
-                        path: '/',
+                        path: 'the-gallery',
                         photo: photo3,
                         text: "What's in store."
                     }
@@ -81,28 +81,28 @@ export const navItems = [
             {
                 id: 2,
                 title: 'Parking',
-                path: '/parking',
+                path: 'parking',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Tours',
-                path: '/tours',
+                path: 'tours',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Accessibility',
-                path: '/accessibility',
+                path: 'accessibility',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 5,
                 title: 'FAQ',
-                path: '/faq',
+                path: 'faq',
                 photo: photo3,
                 text: "What's in store."
             }
@@ -116,21 +116,21 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Videos',
-                path: '/videos',
+                path: 'videos',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Photos',
-                path: '/photos',
+                path: 'photos',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Documents',
-                path: '/documents',
+                path: 'documents',
                 photo: photo3,
                 text: "What's in store."
             }
@@ -151,14 +151,14 @@ export const navItems = [
                     {
                         id: 1,
                         title: 'How To',
-                        path: '/how-to',
+                        path: 'how-to',
                         photo: photo3,
                         text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'Membership',
-                        path: '/membership',
+                        path: 'membership',
                         photo: photo3,
                         text: "What's in store."
                     },
@@ -181,21 +181,21 @@ export const navItems = [
                     {
                         id: 1,
                         title: 'Community',
-                        path: '/community',
+                        path: 'community',
                         photo: photo3,
                         text: "What's in store."
                     },
                     {
                         id: 2,
                         title: 'Corporate',
-                        path: '/corporate',
+                        path: 'corporate',
                         photo: photo3,
                         text: "What's in store."
                     },
                     {
                         id: 3,
                         title: 'Individual',
-                        path: '/individual',
+                        path: 'individual',
                         photo: photo3,
                         text: "What's in store."
                     },
@@ -204,7 +204,7 @@ export const navItems = [
             {
                 id: 2,
                 title: 'Donate',
-                path: '/donate',
+                path: 'donate',
                 photo: photo3,
                 text: "What's in store."
             }
@@ -218,35 +218,35 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Working at Harper',
-                path: '/working-at',
+                path: 'working-at',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 3,
                 title: 'Auditions',
-                path: '/auditions',
+                path: 'auditions',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 2,
                 title: 'Internship',
-                path: '/internship',
+                path: 'internship',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Volunteer',
-                path: '/volunteer',
+                path: 'volunteer',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 5,
                 title: 'Rentals',
-                path: '/rentals',
+                path: 'rentals',
                 photo: photo3,
                 text: "What's in store."
             }
@@ -267,7 +267,7 @@ export const navItems = [
                     {
                         id: 1,
                         title: 'About Harper House',
-                        path: '/about-us',
+                        path: 'about-us',
                         photo: photo3,
                         text: "What's in store."
                         
@@ -275,7 +275,7 @@ export const navItems = [
                     {
                         id: 2,
                         title: 'History',
-                        path: '/history',
+                        path: 'history',
                         photo: photo3,
                         text: "What's in store."
                         
@@ -283,7 +283,7 @@ export const navItems = [
                     {
                         id: 3,
                         title: 'Diversity & Inclusion',
-                        path: '/diversity',
+                        path: 'diversity',
                         photo: photo3,
                         text: "What's in store."
                     }
@@ -299,7 +299,7 @@ export const navItems = [
                     {
                         id: 1,
                         title: 'Leadership',
-                        path: '/leadership',
+                        path: 'leadership',
                         photo: photo3,
                         text: "What's in store."
                         
@@ -307,7 +307,7 @@ export const navItems = [
                     {
                         id: 2,
                         title: 'Staff',
-                        path: '/staff',
+                        path: 'staff',
                         photo: photo3,
                         text: "What's in store."
                         
@@ -315,7 +315,7 @@ export const navItems = [
                     {
                         id: 3,
                         title: 'Board of Trustees',
-                        path: '/board',
+                        path: 'board',
                         photo: photo3,
                         text: "What's in store."
                     }
@@ -324,14 +324,14 @@ export const navItems = [
             {
                 id: 3,
                 title: 'FAQ',
-                path: '/faq',
+                path: 'faq',
                 photo: photo3,
                 text: "What's in store."
             },
             {
                 id: 4,
                 title: 'Contact',
-                path: '/contact',
+                path: 'contact',
                 photo: photo3,
                 text: "What's in store."
             }

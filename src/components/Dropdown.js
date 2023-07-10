@@ -1,6 +1,6 @@
 import DropdownItems from './DropdownItems'
 
-export const Dropdown = ({submenus, dropdown, depthLevel }) => {
+export const Dropdown = ({ item, submenus, dropdown, depthLevel }) => {
     depthLevel = depthLevel + 1;
     const dropdownClass = depthLevel > 1 ? " dropdown-submenu" : "";
 
@@ -9,6 +9,7 @@ export const Dropdown = ({submenus, dropdown, depthLevel }) => {
             {
                 submenus.map((submenu, index) => (
                     <DropdownItems 
+                        path={item}
                         items={submenu} 
                         key={index} 
                         depthLevel={depthLevel} 

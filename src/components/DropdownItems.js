@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Dropdown } from "./Dropdown";
 
-export default function DropdownItems({ items, depthLevel }) {
+export default function DropdownItems({ path, items, depthLevel }) {
 
     const [dropdown, setDropdown] = useState(false);
 
@@ -23,6 +23,7 @@ export default function DropdownItems({ items, depthLevel }) {
             document.removeEventListener('touchstart', handler);
         };
     }, [dropdown]);
+
 
     return (
         <li className='drop-items'
@@ -49,12 +50,15 @@ export default function DropdownItems({ items, depthLevel }) {
                         </button>  
                     <Dropdown 
                         depthLevel={depthLevel}
+                        item={items.path}
                         submenus={items.submenu} 
                         dropdown={dropdown}
                     /> 
                 </>
                 ) : ( 
-                    <a href={items.path}> {items.title}</a>
+                    <>
+                        <NavLink to={path + '/' + items.path} className='nav-main'>{items.title}</NavLink>
+                    </>
                 )
             } 
         </li>
