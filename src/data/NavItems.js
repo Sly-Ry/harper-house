@@ -58,7 +58,7 @@ export const navItems = [
             {
                 id: 1,
                 title: 'Venues',
-                path: '/venues',
+                path: '/visit/venues',
                 photo: photo3,
                 text: "Stay a while.",
                 submenu: [

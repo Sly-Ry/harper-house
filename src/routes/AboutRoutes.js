@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { About } from '../pages/About';
+import { About } from '../pages/ABOUT/About';
 // import { TheTheatre } from './pages/TheTheatre';
 // import { AboutHarper } from './pages/AboutHarper';
 // import { History } from './pages/History';

@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Archives } from '../pages/Archive';
+import { Archives } from '../pages/ARCHIVES/Archive';
 // import { Videos } from './pages/Videos';
 // import { Photos } from './pages/Photos';
 // import { Documents } from './pages/Documents';

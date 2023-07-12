@@ -1,14 +1,12 @@
 // import '../assets/styles/Subscribe'
-import Banner from '../components/Banner';
-import CardLink from '../components/CardLink';
+import Banner from '../../components/Banner';
 
 export function Subscribe() {
     return (
         <>
-            <div className="Subscribe page">
+            <div className="subscribe page">
                 {/* Banner */}
                 <Banner title={"Subscribe"}/>
-                <CardLink title={"Subscribe"}/>
             </div>
         </>
     ) 

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Oppo } from '../pages/Oppo';
+import { Oppo } from '../pages/OPPO/Oppo';
 // import { WorkingAt } from './pages/WorkingAt';
 // import { Auditions } from './pages/Auditions';
 // import { Internships } from './pages/Internships';

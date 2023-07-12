@@ -1,14 +1,12 @@
 // import '../assets/styles/Discounts'
-import Banner from '../components/Banner';
-import CardLink from '../components/CardLink';
+import Banner from '../../components/Banner';
 
 export function Discounts() {
     return (
         <>
-            <div className="Discounts page">
+            <div className="discounts page">
                 {/* Banner */}
                 <Banner title={"Discounts"}/>
-                <CardLink title={"Discounts"}/>
             </div>
         </>
     ) 
