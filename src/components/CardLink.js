@@ -59,7 +59,7 @@ export default function CardLink({ subtitle, title }) {
                                                             //         </div>
                                                             //     </div>
                                                             // </div>
-                                                            <div class="card bg-dark col-12 col-md-12 col-lg-8 m-5 ">
+                                                            <div class="card bg-dark col-12 col-md-12 col-lg-7 m-5 ">
                                                                 
                                                                 <NavLink to={item.path}><img src={item.photo} class="card-img" alt="..."/>
                                                                     <div class="card-img-overlay d-flex justify-content-center align-items-center">
