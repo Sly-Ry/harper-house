@@ -1,4 +1,4 @@
-import productionRed from '../assets/images/pro_red.jpg'
+import productionRed from '../assets/images/pro_images/pro_red.jpg'
 
 export default function UpcomingLayout() {
     return (

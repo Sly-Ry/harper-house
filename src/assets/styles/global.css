@@ -57,7 +57,7 @@ a:link, a:visited {
 }
 
 a:link:hover, a:visited:hover {
-  color: rgb(255, 221, 25);
+  color: rgb(189, 165, 29);
 }
 
 ul {
@@ -90,7 +90,7 @@ li {
 
 /* BANNER STYLING */
 .banner-box {
-  max-height: 78vh;
+  max-height: 98vh;
 }
 
 .banner-text {

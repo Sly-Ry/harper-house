@@ -1,0 +1,53 @@
+.current-season .card {
+    opacity: 1;
+    transition: opacity .1s ease-in;
+}
+
+.current-season .card-img-overlay {
+    padding-top: 27%;
+}
+
+.current-season .card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 42px;
+    text-shadow: 0 2px 15px black;
+}
+
+.current-season .date h5 {
+    font-weight: bold;
+    letter-spacing: .1rem;
+} 
+
+.current-season .card-body p {
+    font-size: 1.1rem;
+}
+.current-season ul {
+    width: 100%;
+}
+
+.current-season li {
+    margin: -13px 0px;
+    padding: 20px 10px;
+    width: 50%;
+    font-size: 1.6rem;
+}
+
+.current-season li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.current-season li a:hover {
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.current-season .list-group-item.two a:hover {
+    color: rgb(3, 0, 197);
+}
+
+.current-season .card:hover {
+    opacity: 1;
+}
