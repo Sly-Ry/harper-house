@@ -3,10 +3,6 @@
     transition: opacity .1s ease-in;
 }
 
-.current-season .card-img-overlay {
-    padding-top: 27%;
-}
-
 .current-season .card-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
