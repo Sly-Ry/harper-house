@@ -28,14 +28,6 @@ export default function SoonCard({ img, fontColor, fontFamily, fontSize, title, 
                             <h5>{date}</h5>
                         </div>
                         <p className="card-text">{type}</p>
-{/*                         
-                        <ul className="list-group list-group-flush pb-2 d-flex flex-row align-items-center justify-content-center">
-                            <li className="list-group-item">
-                                <NavLink href={'/show-info/' + path}>
-                                    inQuiry
-                                </NavLink>
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </div>

@@ -26,6 +26,28 @@ export function ComingSoon() {
                                     />
                                 )
                             }
+                            // Future Feature -- hidden info for upcoming events
+                            // else if (item.id > 3 && item.id <= 6) {
+                            //     return (
+                            //         <SoonCard 
+                            //             key={item.id}
+                            //             img={item.img}
+                            //             date={item.date}
+                            //             type={item.type}  
+                            //         />
+
+                            //     )
+                            // }
+                            // else if (item.id > 6 && item.id <= 9) {
+                            //     return (
+                            //         <SoonCard 
+                            //             key={item.id}
+                            //             img={item.img}
+                            //             type={item.type}  
+                            //         />
+
+                            //     )
+                            // }
                             else {
                                 return null
                             }
