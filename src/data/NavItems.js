@@ -34,15 +34,15 @@ export const navItems = [
                 photo: photo3,
                 text: "Wander the halls."
             },
+            // {
+            //     id: 5,
+            //     title: 'Discounts',
+            //     path: 'discounts',
+            //     photo: photo3,
+            //     text: "Quid pro quo."
+            // },
             {
                 id: 5,
-                title: 'Discounts',
-                path: 'discounts',
-                photo: photo3,
-                text: "Quid pro quo."
-            },
-            {
-                id: 6,
                 title: 'Calendar',
                 path: 'calendar',
                 photo: photo3,
@@ -62,15 +62,15 @@ export const navItems = [
                 photo: photo3,
                 text: "Stay a while.",
                 submenu: [
+                    // {
+                    //     id: 1,
+                    //     title: 'The Red Deck',
+                    //     path: 'the-red-deck',
+                    //     photo: photo3,
+                    //     text: "What's in store."
+                    // },
                     {
                         id: 1,
-                        title: 'The Red Deck',
-                        path: 'the-red-deck',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                    {
-                        id: 2,
                         title: 'The Gallery',
                         path: 'the-gallery',
                         photo: photo3,
@@ -78,20 +78,20 @@ export const navItems = [
                     }
                 ]
             },
-            {
-                id: 2,
-                title: 'Parking',
-                path: 'parking',
-                photo: photo3,
-                text: "What's in store."
-            },
-            {
-                id: 3,
-                title: 'Tours',
-                path: 'tours',
-                photo: photo3,
-                text: "What's in store."
-            },
+            // {
+            //     id: 2,
+            //     title: 'Parking',
+            //     path: 'parking',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // },
+            // {
+            //     id: 3,
+            //     title: 'Tours',
+            //     path: 'tours',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // },
             {
                 id: 4,
                 title: 'Accessibility',
@@ -192,13 +192,13 @@ export const navItems = [
                         photo: photo3,
                         text: "What's in store."
                     },
-                    {
-                        id: 3,
-                        title: 'Individual',
-                        path: 'individual',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
+                    // {
+                    //     id: 3,
+                    //     title: 'Individual',
+                    //     path: 'individual',
+                    //     photo: photo3,
+                    //     text: "What's in store."
+                    // },
                 ]
             },
             {
@@ -243,13 +243,13 @@ export const navItems = [
                 photo: photo3,
                 text: "What's in store."
             },
-            {
-                id: 5,
-                title: 'Rentals',
-                path: 'rentals',
-                photo: photo3,
-                text: "What's in store."
-            }
+            // {
+            //     id: 5,
+            //     title: 'Rentals',
+            //     path: 'rentals',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // }
         ]
     },
     {

@@ -15,7 +15,7 @@ import ucPro5 from '../assets/images/pro_images/pro_the-dumbwaiter.jpg'
 export const showList = [
     {
         id: 1,
-        type: "performance",
+        type: "MAIN STAGE EVENT",
         title: 'RED',
         by: 'John Logan',
         director: 'Ryan Williams',
@@ -28,7 +28,7 @@ export const showList = [
     },
     {
         id: 2,
-        type: "performance",
+        type: "MAIN STAGE EVENT",
         title: 'The Pillowman',
         by: 'Martin McDonagh',
         director: 'Ryan Williams',
@@ -41,7 +41,7 @@ export const showList = [
     },
     {
         id: 3,
-        type: "performance",
+        type: "MAIN STAGE EVENT",
         title: 'The Last Five Years',
         by: 'Jason Robert Brown',
         director: 'Ryan Williams',
@@ -55,7 +55,7 @@ export const showList = [
     {
         id: 4,
         title: 'Not Omaha',
-        type: "performance",
+        type: "MAIN STAGE EVENT",
         by: 'Paul Kruse',
         director: 'Ryan Williams',
         date: 'February 18 - March 4, 2024',
@@ -67,7 +67,7 @@ export const showList = [
     },
     {
         id: 5,
-        type: "performance",
+        type: "MAIN STAGE EVENT",
         title: 'Les Miserables',
         by: 'Victor Hugo',
         director: 'Ryan Williams',

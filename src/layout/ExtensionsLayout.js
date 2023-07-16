@@ -1,6 +1,6 @@
-
 import subscribePhoto from '../assets/images/subscribe.jpg'
 import joinPhoto from '../assets/images/join-team.jpg'
+import { NavLink } from 'react-router-dom'
 
 export default function ExtensionsLayout() {
     return (
@@ -22,9 +22,7 @@ export default function ExtensionsLayout() {
                             rounded-0
                             m-4"
                         >
-                            <a href="/subscribe">
-                                <img src={subscribePhoto} className="card-img  px-5" alt="" />
-                            </a>
+                            <img src={subscribePhoto} className="card-img  px-5" alt="" />
                             <div className="
                                 card-img-overlay
                                 text-white
@@ -35,6 +33,7 @@ export default function ExtensionsLayout() {
                                 align-items-center"
                             >
                                 <h1 className="card-title">Subscribe</h1>
+                                <NavLink to="/shows-events/subscribe" className="stretched-link"/>
                             </div>
                         </div>
                     </div>
@@ -48,9 +47,7 @@ export default function ExtensionsLayout() {
                             rounded-
                             m-4"
                         >
-                            <a href="/oppo">
-                                <img src={joinPhoto} className="card-img px-5" alt="" />
-                            </a>
+                            <img src={joinPhoto} className="card-img px-5" alt="" />
                             <div className="
                                 card-img-overlay
                                 text-white
@@ -61,6 +58,7 @@ export default function ExtensionsLayout() {
                                 align-items-center"
                             >
                                 <h1 className="card-title">Volunteer</h1>
+                                <NavLink to="/oppo/volunteer" className="stretched-link"/>
                             </div>
                         </div>
                     </div>

@@ -43,10 +43,6 @@
     font-weight: bold;
 }
 
-.upcoming .card {
-    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.342);
-}
-
 
 /* EXTENSIONS SECTION */
 .special {
@@ -63,6 +59,10 @@
 .special h1 {
     font-size: 3rem;
     text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.special .card-img-overlay {
+    padding-bottom: 27%;
 }
 
 

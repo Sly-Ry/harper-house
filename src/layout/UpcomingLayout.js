@@ -1,9 +1,14 @@
-import productionRed from '../assets/images/pro_images/pro_red.jpg'
+// import proUp from '../assets/images/pro_images/pro_red.jpg'
+import ShowCard from '../components/ShowCard'
+import { showList } from '../data/ShowList'
 
 export default function UpcomingLayout() {
+
+    let i = 0;
+
     return (
         <>
-            <div className='upcoming container-fluid'>
+            <div className='current-season container-fluid'>
                 <div className="
                     row
                     pb-5
@@ -11,38 +16,34 @@ export default function UpcomingLayout() {
                     justify-content-center 
                     align-items-center"
                 >
-                    <div className="
-                        col-12
-                        col-md-10
-                        col-lg-8
-                        col-xl-6
-                        mb-1
-                        p-5
-                        pb-0"
-                    >
-                        <h2 className='
-                            upcoming-header
-                            text-center 
-                            fs-1 
-                            mb-4'
-                        >Upcoming Events</h2>
-                        <div className="card py-3">
-                            <img src={productionRed} className="card-img-top rounded-0" alt=""/>
-                            <div className="
-                                card-body 
-                                text-center"
-                            >
-                                <h2 className="card-title fs-1 fw-bold">RED</h2>
-                                <p className="
-                                    card-text 
-                                    pb-3
-                                    fs-3"
-                                >Feb 15 - Mar 1, 2024</p>
-                            </div>
-                        </div>
+                    <h2 className='
+                        upcoming-header
+                        text-center 
+                        fs-1 
+                        m-4
+                        mb-5'
+                    >Upcoming Events</h2>
+                        {showList.map(item => {
+                            if(item.id > i && item.id <= i+2){
+                                return (
+                                    <ShowCard 
+                                        key={item.id}
+                                        img={item.img} 
+                                        fontColor={item.fontColor} 
+                                        fontFamily={item.fontFamily} 
+                                        title={item.title} 
+                                        date={item.date}
+                                        synopsis={item.synopsis}
+                                        path={item.path}  
+                                    />
+                                )
+                            }
+                            else {
+                                return null;
+                            }
+                        })}
                     </div>
                 </div>
-            </div>
             {/* divider */}
             <div className="bar"></div>
         </>

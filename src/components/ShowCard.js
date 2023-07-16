@@ -9,7 +9,8 @@ export default function ShowCard({ img, fontColor, fontFamily, title, date, syno
                 col-lg-7 
                 col-xl-5 
                 px-5 
-                mb-5"
+                mb-5
+                text-center"
             >
                 <div className="card rounded-0">
                     <img src={img} className="card-img-top rounded-0" alt="..."/>

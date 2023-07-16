@@ -7,7 +7,7 @@ import { Support } from '../pages/SUPPORT/Support';
 // import { Community } from './pages/Community';
 // import { Corporate } from './pages/Corporate';
 // import { Individual } from './pages/Individual';
-// import { Donate } from './pages/Donate';
+import { Donate } from '../pages/SUPPORT/Donate';
 
 export default function SupportRoutes() {
     return (
@@ -24,8 +24,8 @@ export default function SupportRoutes() {
                     <Route path='community' element={<Community />} />
                     <Route path='corporate' element={<Corporate />} />
                     <Route path='individual' element={<Individual />} />
-                </Route>
-                <Route path='donate' element={<Donate />} /> */}
+                </Route>*/}
+                <Route path='donate' element={<Donate />} /> 
             </Routes>
         </>
     )

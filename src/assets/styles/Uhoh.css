@@ -1,0 +1,16 @@
+.future-feature h1 {
+    color: white;
+}
+
+.future-feature span {
+ color: rgb(190, 54, 54);
+}
+
+.future-feature a {
+    color: white;
+    transition: opacity .5s ease-out;
+}
+
+.future-feature .links a h2:hover {
+    opacity: 1;
+}

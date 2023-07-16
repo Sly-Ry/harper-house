@@ -1,19 +1,24 @@
 .current-season .card {
-    opacity: 1;
+    opacity: .8;
     transition: opacity .1s ease-in;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.342);
+}
+
+.current-season .card:hover {
+    opacity: 1;
 }
 
 .current-season .card-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
+    font-weight: bold;
     line-height: 42px;
     text-shadow: 0 2px 15px black;
 }
 
 .card .card-img-overlay{
-    padding-top: 27%;;
+    padding-top: 27%;
 }
-
 
 .current-season .date h5 {
     font-weight: bold;
