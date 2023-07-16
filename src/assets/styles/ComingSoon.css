@@ -1,0 +1,14 @@
+.coming-soon .card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 42px;
+    text-shadow: 0 2px 15px black;
+}
+
+.coming-soon .card h1 {
+    font-size: 3rem;
+}
+
+.coming-soon .card p {
+    font-size: 1rem;
+}

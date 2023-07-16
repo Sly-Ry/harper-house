@@ -10,6 +10,11 @@
     text-shadow: 0 2px 15px black;
 }
 
+.card .card-img-overlay{
+    padding-top: 27%;;
+}
+
+
 .current-season .date h5 {
     font-weight: bold;
     letter-spacing: .1rem;
@@ -18,6 +23,7 @@
 .current-season .card-body p {
     font-size: 1.1rem;
 }
+
 .current-season ul {
     width: 100%;
 }
