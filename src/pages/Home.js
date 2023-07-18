@@ -14,15 +14,13 @@ export function Home() {
                 <JumbotronLayout />
                 <UpcomingLayout />
                 <ExtensionsLayout />
-                <div className="container-fluid py-5 bg-dark">
+                <div className="home-donate container-fluid py-5 bg-dark">
                     <div className="row">
-                        <div className="col text-center text-white">
-                            <h1>Make a donation!</h1>
-                            <button className='btn btn-lg btn-dark'>
-                                <NavLink to="support/donate">
-                                    Donate
-                                </NavLink>
-                            </button>
+                        <div className="col d-flex flex-column align-items-center text-center text-white">
+                            <h1>MAKE A DONATION</h1>
+                            <NavLink to="/support/donate" className="my-5">
+                                <h2>DONATE</h2>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

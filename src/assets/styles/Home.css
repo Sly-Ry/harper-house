@@ -36,14 +36,6 @@
     font-weight: bold;
 }
 
-
-/* UPCOMING SECTION */
-.upcoming-header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
-
-
 /* EXTENSIONS SECTION */
 .special {
     background-color: rgba(114, 0, 0, 0.911);
@@ -63,6 +55,28 @@
 
 .special .card-img-overlay {
     padding-bottom: 27%;
+}
+
+
+/* UPCOMING SECTION */
+.upcoming-header,
+.home-donate h1,
+.home-donate h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.home-donate h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: inherit;
+    opacity: .2;
+    transition: opacity .2s ease-out;
+}
+
+.home-donate h2:hover {
+    opacity: 1;
 }
 
 

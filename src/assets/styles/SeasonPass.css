@@ -1,0 +1,42 @@
+.season .container-fluid .row .col .card {
+    border: 5px solid goldenrod;
+    border-left: none; 
+    border-right: none; 
+}
+
+.season .col-md-3 .card-body {
+    border: 10px solid goldenrod;
+    border-right: none; 
+    border-top: 20px solid goldenrod;
+    border-bottom: 20px solid goldenrod;;   
+}
+.season img {
+    width: 500px;
+    height: 337px;
+    object-fit: cover;
+}
+
+.season .card-title {
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.season .card-body.price {
+    border-radius: 50% 0 0 50%;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.season .card-title.price {
+    font-family: 'Satisfy', cursive;
+    font-size: 8rem;
+    color: goldenrod
+}
+
+.season .card-title .pass-number{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: black
+}

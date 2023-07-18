@@ -16,13 +16,13 @@ export default function UpcomingLayout() {
                     justify-content-center 
                     align-items-center"
                 >
-                    <h2 className='
+                    <h1 className='
                         upcoming-header
                         text-center 
                         fs-1 
                         m-4
                         mb-5'
-                    >Upcoming Events</h2>
+                    >UPCOMING EVENTS</h1>
                         {showList.map(item => {
                             if(item.id > i && item.id <= i+2){
                                 return (

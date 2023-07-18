@@ -1,4 +1,8 @@
-.future-feature h1 {
+.uh-oh .future-feature h1,
+.future-feature h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
     color: white;
 }
 
@@ -6,9 +10,12 @@
  color: rgb(190, 54, 54);
 }
 
-.future-feature a {
-    color: white;
-    transition: opacity .5s ease-out;
+.future-feature h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: inherit;
+    opacity: .2;
+    transition: opacity .2s ease-out;
 }
 
 .future-feature .links a h2:hover {
