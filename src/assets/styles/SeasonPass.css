@@ -1,42 +1,118 @@
-.season .container-fluid .row .col .card {
+.season .card {
     border: 5px solid goldenrod;
     border-left: none; 
-    border-right: none; 
+    border-right: none;
+    border-radius: 0;
 }
 
-.season .col-md-3 .card-body {
+.season .ticket-price {
+    border-radius: 50% 0 0 50%;
     border: 10px solid goldenrod;
     border-right: none; 
     border-top: 20px solid goldenrod;
     border-bottom: 20px solid goldenrod;;   
 }
-.season img {
+
+.season .ticket {
     width: 500px;
     height: 337px;
     object-fit: cover;
 }
 
+.season .pass-number {
+    margin-bottom: 80px;
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
 .season .card-title {
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Cinzel', serif;
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-weight: bold;
+    color: gold;
+}
+
+.season .card-4 {
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 4rem;
+}
+
+.season .card-text {
+    margin-top: -20px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.season .card-text:hover {
+    color: rgba(255, 255, 255, 0.452); 
 }
 
 .season .card-body.price {
     border-radius: 50% 0 0 50%;
-    padding-top: 50px;
-    padding-left: 10px;
 }
 
 .season .card-title.price {
     font-family: 'Satisfy', cursive;
-    font-size: 8rem;
-    color: goldenrod
+    font-size: 5rem;
+    color: gold;
 }
 
 .season .card-title .pass-number{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     color: black
+}
+
+@media screen and (max-width: 1400px) {
+    .season .ticket {
+        display: none;
+    }
+
+}  
+
+@media screen and (max-width: 767px) {
+    .season .card {
+        border-top: none;
+        border-bottom: none;
+        border-left: 5px solid goldenrod;
+        border-right: 5px solid goldenrod;
+    }
+
+
+    .season .pass-number {
+        margin-bottom: 20px;
+    }
+
+    .season .card-body{
+        height: 140px !important;
+    }
+
+    
+    .season .ticket-body {
+        height: 100px !important;
+    }
+
+    .season .ticket-price {
+        border-radius: 0;
+        border: none;  
+    }
+
+    .season .card-body.price {
+        margin: 40px 0;
+        border-radius: 0;
+    }
+
+    .season .card-title.price {
+        border-radius: 0;
+        font-size: 4.5rem;
+    }
+
+    .season .col-md-3 .card-body {
+        padding: 40px 0;
+        padding-top: 40px ;
+        margin: 34px 0; 
+        border: none;
+    }
 }
