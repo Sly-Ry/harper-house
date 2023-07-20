@@ -1,0 +1,13 @@
+.subscribe.page {
+    background-color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+.subscribe label:not(.form-check-label) {
+    font-size: 1.2rem;
+}
+
+.subscribe span {
+    font-size: .9rem;
+    color: grey;
+}
