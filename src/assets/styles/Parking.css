@@ -1,0 +1,25 @@
+.parking h1,
+.parking h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.parking h1 span {
+    letter-spacing: -3px;
+}
+
+.parking p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding-left: 25px;
+}
+
+.parking .img-box {
+    max-width: 90%;
+}
+
+.parking .img-box img {
+    max-width: 100%;
+    min-height: 100%;
+    box-shadow: 0 2px 5px black;
+}
