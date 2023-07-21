@@ -1,4 +1,3 @@
-// import '../assets/styles/Visit.css'
 import Banner from '../../components/Banner'
 import CardLink from '../../components/CardLink'
 

@@ -16,7 +16,8 @@
     text-shadow: 0 2px 15px black;
 }
 
-.card .card-img-overlay{
+.current-season .card .card-img-overlay,
+.coming-soon .card .card-img-overlay {
     padding-top: 27%;
 }
 

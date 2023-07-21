@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { Visiting } from '../pages/VISIT/Visit';
-import { Venues } from '../pages/VISIT/Venues';
-import { TheRedDeck } from '../pages/VISIT/TheRedDeck';
-import { TheGallery } from '../pages/VISIT/TheGallery';
+import { Venues } from '../pages/VISIT/VENUES/Venues';
+import { TheRedDeck } from '../pages/VISIT/VENUES/TheRedDeck';
+import { TheGallery } from '../pages/VISIT/VENUES/TheGallery';
 import { Parking } from '../pages/VISIT/Parking';
 import { Tours } from '../pages/VISIT/Tours';
 import { Accessibility } from '../pages/VISIT/Accessibility';

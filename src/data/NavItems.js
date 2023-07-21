@@ -41,13 +41,13 @@ export const navItems = [
             //     photo: photo3,
             //     text: "Quid pro quo."
             // },
-            {
-                id: 5,
-                title: 'Calendar',
-                path: 'calendar',
-                photo: photo3,
-                text: "Chart the course."
-            }
+            // {
+            //     id: 5,
+            //     title: 'Calendar',
+            //     path: 'calendar',
+            //     photo: photo3,
+            //     text: "Chart the course."
+            // }
         ]
     },
     {
@@ -55,54 +55,47 @@ export const navItems = [
         title: 'VISITING',
         path: '/visit',
         submenu: [
+            // {
+            //     id: 1,
+            //     title: 'Venues',
+            //     path: '/visit/venues',
+            //     photo: photo3,
+            //     text: "Stay a while.",
+            //     submenu: [
+            //         {
+            //             id: 1,
+            //             title: 'The Red Deck',
+            //             path: 'the-red-deck',
+            //             photo: photo3,
+            //             text: "What's in store."
+            //         },
+            //         {
+            //             id: 1,
+            //             title: 'The Gallery',
+            //             path: 'the-gallery',
+            //             photo: photo3,
+            //             text: "What's in store."
+            //         }
+            //     ]
+            // },
             {
                 id: 1,
-                title: 'Venues',
-                path: '/visit/venues',
-                photo: photo3,
-                text: "Stay a while.",
-                submenu: [
-                    // {
-                    //     id: 1,
-                    //     title: 'The Red Deck',
-                    //     path: 'the-red-deck',
-                    //     photo: photo3,
-                    //     text: "What's in store."
-                    // },
-                    {
-                        id: 1,
-                        title: 'The Gallery',
-                        path: 'the-gallery',
-                        photo: photo3,
-                        text: "What's in store."
-                    }
-                ]
-            },
-            // {
-            //     id: 2,
-            //     title: 'Parking',
-            //     path: 'parking',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // },
-            // {
-            //     id: 3,
-            //     title: 'Tours',
-            //     path: 'tours',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // },
-            {
-                id: 4,
-                title: 'Accessibility',
-                path: 'accessibility',
+                title: 'Parking',
+                path: 'parking',
                 photo: photo3,
                 text: "What's in store."
             },
             {
-                id: 5,
-                title: 'FAQ',
-                path: 'faq',
+                id: 2,
+                title: 'Tours',
+                path: 'tours',
+                photo: photo3,
+                text: "What's in store."
+            },
+            {
+                id: 3,
+                title: 'Accessibility',
+                path: 'accessibility',
                 photo: photo3,
                 text: "What's in store."
             }
