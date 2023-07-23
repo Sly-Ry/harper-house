@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Dropdown } from "./Dropdown";
 
-export default function DropdownItems({ path, items, depthLevel }) {
+export default function DropdownItems({ path, items, depthLevel, submenu }) {
 
     const [dropdown, setDropdown] = useState(false);
 
@@ -33,21 +33,21 @@ export default function DropdownItems({ path, items, depthLevel }) {
         >
             {items.submenu ? (
                 <>
-                        <button 
-                            type="button" 
-                            aria-haspopup="menu"
-                            aria-expanded ={dropdown ? 'true' : 'false'}
-                            onClick={() => setDropdown((prev) => !prev)}
-                        >
-                            <NavLink to={items.path} className='nav-main'>
-                                {items.title} 
-                                {" "} 
-                                {depthLevel > 0 ? 
-                                    <span>&raquo;</span> : 
-                                    <span className="arrow"/>
-                                }
-                            </NavLink>
-                        </button>  
+                    <button 
+                        type="button" 
+                        aria-haspopup="menu"
+                        aria-expanded ={dropdown ? 'true' : 'false'}
+                        onClick={() => setDropdown((prev) => !prev)}
+                    >
+                        <NavLink to={items.path} className='nav-main'>
+                            {items.title} 
+                            {" "} 
+                            {depthLevel > 0 ? 
+                                <span>&raquo;</span> : 
+                                <span className="arrow"/>
+                            }
+                        </NavLink>
+                    </button>  
                     <Dropdown 
                         depthLevel={depthLevel}
                         item={items.path}
@@ -60,7 +60,7 @@ export default function DropdownItems({ path, items, depthLevel }) {
                         <NavLink to={path + '/' + items.path} className='nav-main'>{items.title}</NavLink>
                     </>
                 )
-            } 
+            }
         </li>
     );
 }

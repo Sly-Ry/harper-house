@@ -4,7 +4,7 @@ import CardLink from '../../components/CardLink'
 export function ShowsEvents() {
     return (
         <>
-            <div className="shows-events page bg-white">
+            <div className="shows-events page">
                 {/* Banner */}
                 <Banner title={"SHOWS & EVENTS"}/>
                 <CardLink title={"SHOWS & EVENTS"}/>

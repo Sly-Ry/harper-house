@@ -1,4 +1,10 @@
 import photo3 from '../assets/images/photo3.jpg'
+// import pro1 from '../assets/images/pro_images/pro_red.jpg'
+// import pro2 from '../assets/images/pro_images/pro_the-pillowman.jpg'
+// import pro3 from '../assets/images/pro_images/pro_the-last-five-years.jpg'
+// import pro4 from '../assets/images/pro_images/pro_not-omaha.jpg'
+// import pro5 from '../assets/images/pro_images/pro_les-miserables.jpg'
+// import cover from '../assets/images/cover.jpg'
 
 export const navItems = [
     {
@@ -106,26 +112,53 @@ export const navItems = [
         title: 'ARCHIVES',
         path: '/archives',
         submenu: [
+            // {
+            //     id: 1,
+            //     title: 'Videos',
+            //     path: 'videos',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // },
+            // {
+            //     id: 2,
+            //     title: 'Photos',
+            //     path: 'photos',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // },
+            // {
+            //     id: 3,
+            //     title: 'Documents',
+            //     path: 'documents',
+            //     photo: photo3,
+            //     text: "What's in store."
+            // }
             {
                 id: 1,
-                title: 'Videos',
-                path: 'videos',
-                photo: photo3,
-                text: "What's in store."
+                title: "S3: 2023 - 24",
+                title2: "S3: 2023 - 24 || Distant Memories",
+                sh_yr: "2023 - 24",
+                name: "Distant Memories",
+                path: 'distant-memories',
+                showList: []
             },
             {
                 id: 2,
-                title: 'Photos',
-                path: 'photos',
-                photo: photo3,
-                text: "What's in store."
+                title: "S2: 2022 - 23",
+                title2: "S1: 2022 - 23 || Sky's the Limit",
+                sh_yr: "2022 - 23",
+                name: "Sky's the Limit",
+                path: 'sky%27s-the-limit',
+                showList: []
             },
             {
                 id: 3,
-                title: 'Documents',
-                path: 'documents',
-                photo: photo3,
-                text: "What's in store."
+                title: "S1: 2021 - 22",
+                title2: "S1: 2021 - 22 || Lost & Found",
+                sh_yr: "2021 - 22",
+                name: "Lost & Found",
+                path: 'lost-and-found',
+                showList: []
             }
         ]
     },
