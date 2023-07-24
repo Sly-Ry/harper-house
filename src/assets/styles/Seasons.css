@@ -1,0 +1,41 @@
+.seasons .accordion button:focus,
+.seasons .accordion button:active {
+    box-shadow: none;
+    color: white;
+    font-weight: bold;
+}
+
+.seasons h1,
+.seasons h2,
+.seasons h4 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.seasons h2 {
+    font-weight: bold;
+}
+
+.seasons h4 {
+    font-size: 1rem;
+}
+
+.seasons p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    padding-left: 25px;
+}
+
+.seasons .member p {
+    padding: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .seasons .card.py-5 {
+        padding-bottom: 0 !important;
+    }
+
+    .seasons h2 {
+        font-size: 3.5rem;
+    }
+    
+}

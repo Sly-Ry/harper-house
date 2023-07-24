@@ -1,25 +1,17 @@
-// import '../assets/styles/Archives'
-import CustomBanner from "../../components/CustomBanner";
-import archiveBackground from '../../assets/images/photo2.jpg'
-import { ArchiveItems } from "../../data/ArchiveItems";
-import { NavLink } from "react-router-dom";
-
 export function Archives() {
     return (
         <>
-            <div className="archives page">
-                {/* CustomBanner */}
-                <CustomBanner title={"Archives"} background={archiveBackground}/>
-                <nav className="nav flex-column p-5">
-                    {
-                        ArchiveItems.toReversed().map(items => {
-                            return (
-                                <NavLink to={items.path} className="py-2 fs-6">S{items.id}: {items.yr} || {items.title}</NavLink>
-                            )
-                        })
-                    }
-                </nav>
-
+            <div className="archives">
+                <h1 className="text-center">THE ARCHIVES</h1>
+                <div className="head-body fs-6">
+                    <p>First of all, thank you for taking some time out of your busy day to peruse our site.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum?</p>
+                    <p>Please contact the Serving Archivist for any Archival questions you may have.</p>
+                    <p>We hope you have a wonderful rest of your day.</p>
+                </div>
             </div>
         </>
     ) 
