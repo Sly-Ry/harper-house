@@ -1,32 +1,84 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import { Support } from '../pages/SUPPORT/Support';
-// import { Offering } from './pages/Offering';
-// import { How-To } from './pages/How-To';
-// import { Membership } from './pages/Membership';
-// import { Sponsorship } from './pages/Sponsorship';
-// import { Community } from './pages/Community';
-// import { Corporate } from './pages/Corporate';
-// import { Individual } from './pages/Individual';
+// import { Offering } from '../pages/SUPPORT/Offering';
+// import { HowTo } from '../pages/SUPPORT/How-To';
+// import { Membership } from '../pages/SUPPORT/Membership';
+import { Sponsorship } from '../pages/SUPPORT/Sponsorship';
+// import { Community } from '../pages/SUPPORT/Community';
+// import { Corporate } from '../pages/SUPPORT/Corporate';
+// import { Individual } from '../pages/SUPPORT/Individual';
+
 import { Donate } from '../pages/SUPPORT/Donate';
+import CustomBanner from "../components/CustomBanner";
+import archiveBackground from '../assets/images/support.jpg'
+import { navItems } from "../data/NavItems";
 
 export default function SupportRoutes() {
     return (
         <>
-            <Routes>
-                <Route index element={<Support />} />
-                {/* <Route exact path='offering'>
-                    <Route index element={<Offering />} />
-                    <Route path='how-to' element={<HowTo />} />
-                    <Route path='membership' element={<Membership />} />
-                </Route>
-                <Route exact path='sponsorship'>
-                    <Route index element={<Sponsorhip />} />
-                    <Route path='community' element={<Community />} />
-                    <Route path='corporate' element={<Corporate />} />
-                    <Route path='individual' element={<Individual />} />
-                </Route>*/}
-                <Route path='donate' element={<Donate />} /> 
-            </Routes>
+            <CustomBanner title={"Support Us"} background={archiveBackground}/>
+            <div className="archive-routes container-fluid">
+                <div className="row">
+                    <div className="col-12 col-lg-12 col-xl-3 p-5">
+                        <nav className="nav flex-column bg-white">
+                            <NavLink to='/support' className="arch-nav py-2 fs-6">Support</NavLink>
+                            {
+                                navItems.map(items => {
+                                    if (items.title === 'SUPPORT US') {
+                                        return (
+                                            <>
+                                                {   
+                                                    items.submenu.map(item => {
+                                                        return (
+                                                            <NavLink 
+                                                                key={item.id}
+                                                                to={item.path} 
+                                                                className="supp-nav py-2 fs-6" 
+                                                            >
+                                                                {item.title}
+                                                            </NavLink>
+                                                        )
+                                                    })
+                                                }
+                                            </>
+                                        )
+                                    }
+                                    else {
+                                        return null;
+                                    }
+                                })
+                            }
+                        </nav>
+                    </div>
+                    <div className="col-12 col-lg-12 col-xl-7 p-5 bg-danger">
+                        <Routes>
+                            <Route index element={<Support />} />
+                            {/* <Route exact path='offering'> */}
+                                {/* <Route index element={<Offering />} />
+                                <Route path='how-to' element={<HowTo />} />
+                                <Route path='membership' element={<Membership />} /> */}
+                            {/* </Route> */}
+                            <Route exact path='/sponsorship'>
+                                <Route index element={<Sponsorship />} />
+                                {/* <Route path='community' element={<Community />} />
+                                <Route path='corporate' element={<Corporate />} />
+                                <Route path='individual' element={<Individual />} /> */}
+                            </Route>
+                            <Route path='donate' element={<Donate />} /> 
+                        </Routes>
+                    </div>
+                    <div className="col-lg-12 col-xl-2 d-flex justify-content-center align-items-center">
+                        <div className="card p-5 text-center">
+                            <div className="card-body member">
+                                <h4>SERVING TREASURER</h4>
+                                <h2>Jill Valentine</h2>
+                                <p>1234@email.com</p>
+                                <p>(###) ###-####</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

@@ -157,38 +157,15 @@ export const navItems = [
         submenu: [
             {
                 id: 1,
-                title: 'Offering',
-                path: '/offering',
+                title: 'Membership',
+                path: 'membership',
                 photo: photo3,
-                text: "What's in store.",
-                submenu: [
-                    {
-                        id: 1,
-                        title: 'How To',
-                        path: 'how-to',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                    {
-                        id: 2,
-                        title: 'Membership',
-                        path: 'membership',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                    // {
-                    //     id: 3,
-                    //     title: '',
-                    //     path: '',
-                    //     photo: photo3,
-                    //     text: "What's in store."
-                    // },
-                ]
+                text: "What's in store."
             },
             {
-                id: 3,
+                id: 2,
                 title: 'Sponsorship',
-                path: '/sponsorship',
+                path: 'sponsorship',
                 photo: photo3,
                 text: "What's in store.",
                 submenu: [
@@ -206,17 +183,17 @@ export const navItems = [
                         photo: photo3,
                         text: "What's in store."
                     },
-                    // {
-                    //     id: 3,
-                    //     title: 'Individual',
-                    //     path: 'individual',
-                    //     photo: photo3,
-                    //     text: "What's in store."
-                    // },
+                    {
+                        id: 3,
+                        title: 'Individual',
+                        path: 'individual',
+                        photo: photo3,
+                        text: "What's in store."
+                    },
                 ]
             },
             {
-                id: 2,
+                id: 3,
                 title: 'Donate',
                 path: 'donate',
                 photo: photo3,
