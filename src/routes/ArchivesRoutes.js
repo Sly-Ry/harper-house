@@ -22,6 +22,7 @@ export default function ArchivesRoutes() {
                                 ArchiveItems.toReversed().map(items => {
                                     return (
                                         <NavLink 
+                                        key={items.id}
                                             to={items.path} 
                                             className="arch-nav py-2 fs-6" 
                                         >
@@ -41,7 +42,7 @@ export default function ArchivesRoutes() {
                     <div className="col-lg-12 col-xl-2 d-flex justify-content-center align-items-center">
                         <div className="card p-5 text-center">
                             <div className="card-body member">
-                                <h4>SERVING ARCHIVIST</h4>
+                                <h4>SERVING LIBRARIAN</h4>
                                 <h2>Wilma Flintstone</h2>
                                 <p>1234@email.com</p>
                                 <p>(###) ###-####</p>

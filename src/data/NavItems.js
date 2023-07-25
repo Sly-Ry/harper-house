@@ -112,29 +112,17 @@ export const navItems = [
         title: 'ARCHIVES',
         path: '/archives',
         submenu: [
-            // {
-            //     id: 1,
-            //     title: 'Videos',
-            //     path: 'videos',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // },
-            // {
-            //     id: 2,
-            //     title: 'Photos',
-            //     path: 'photos',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // },
-            // {
-            //     id: 3,
-            //     title: 'Documents',
-            //     path: 'documents',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // }
             {
                 id: 1,
+                title: "S4: 2024 - 25",
+                title2: "S4: 2024 - 25 || Dreams of You",
+                sh_yr: "2023 - 24",
+                name: "Dreams of You",
+                path: 'dreams-of-you',
+                showList: []
+            },
+            {
+                id: 2,
                 title: "S3: 2023 - 24",
                 title2: "S3: 2023 - 24 || Distant Memories",
                 sh_yr: "2023 - 24",
@@ -143,16 +131,16 @@ export const navItems = [
                 showList: []
             },
             {
-                id: 2,
+                id: 3,
                 title: "S2: 2022 - 23",
                 title2: "S1: 2022 - 23 || Sky's the Limit",
                 sh_yr: "2022 - 23",
                 name: "Sky's the Limit",
-                path: 'sky%27s-the-limit',
+                path: "sky's-the-limit",
                 showList: []
             },
             {
-                id: 3,
+                id: 4,
                 title: "S1: 2021 - 22",
                 title2: "S1: 2021 - 22 || Lost & Found",
                 sh_yr: "2021 - 22",

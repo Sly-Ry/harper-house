@@ -21,7 +21,7 @@ export function Seasons() {
                                             items.showList.map(show => {
                                                 return (
                                                     <>
-                                                        <div className="accordion-item">
+                                                        <div key={show.id} className="accordion-item">
                                                             <h2 className="accordion-header" id={"flush-heading"+ show.id}>
                                                                 <button 
                                                                     className="accordion-button collapsed bg-danger" 
@@ -45,12 +45,12 @@ export function Seasons() {
                                                                             <p>Written by {show.by}</p>
                                                                         </div>
                                                                         <div className="col-12 col-md-6 text-end">
-                                                                            <p>{show.date}</p>
+                                                                            <h5>{show.date}</h5>
                                                                         </div>
                                                                     </div>
                                                                     <p>Presented by {show.producer}</p>
                                                                     <p style={{fontStyle: "italic"}}>{'"' + show.synopsis + '"'}</p>
-                                                                    <div className="row ">
+                                                                    <div className="row">
                                                                         <div className="cast col-12 col-md-6 d-flex flex-column">
                                                                             <h5 className="pt-4">CAST</h5>
                                                                             {
@@ -74,6 +74,22 @@ export function Seasons() {
                                                                                     )
                                                                                 })
                                                                             }
+                                                                        </div>
+                                                                    </div>
+                                                                    <div className="row py-4">
+                                                                        <div className="col-7">
+                                                                            <h5>Promotional Imagery:</h5>
+                                                                            <div className="card mb-3">
+                                                                                <img src={show.img} alt="" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="col-12">
+                                                                            <h5>Trailer:</h5>
+                                                                            <p>FEATURE COMING SOON</p>
+                                                                        </div>
+                                                                        <div className="col-12">
+                                                                            <h5>Photos: </h5>
+                                                                            <p>FEATURE COMING SOON</p>
                                                                         </div>
                                                                     </div>
                                                                     {/* <div className="row py-4">

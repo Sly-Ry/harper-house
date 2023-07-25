@@ -296,8 +296,8 @@ export const ArchiveItems = [
         id: 2,
         yr: "2022 - 2023",
         sh_yr: "2022 - 23",
-        title: "Skies the Limit",
-        path: 'skies-the-limit',
+        title: "Sky's the Limit",
+        path: "sky's-the-limit",
         showList: [
             {
                 id: 1,
