@@ -1,9 +1,11 @@
-import { keys } from "../../data/ResidencyKeys"
+import { NavLink } from "react-router-dom";
+import { keys } from "../../data/ResidencyKeys";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export function Membership() {
     return (
         <>
-            <h1>BECOME A HARPER Member</h1>
+            <h1>BECOME A MEMBER</h1>
             <p>When you become a member of the House, you become a part of our family. 27% of every membership goes towards our Free Fox Initiative, a fund established with the intent and goal of increasing the pay artists who create at <span>HARPER HOUSE</span></p>
             <p>Harper House offers four keys (or levels) of Membership:</p>
             {
@@ -21,7 +23,10 @@ export function Membership() {
                                             aria-expanded="false" 
                                             aria-controls={"flush-collapse"+ key.id}
                                         >
-                                            <h1 className='key-name text-dark'>THE {key.name.toUpperCase()} KEY</h1> 
+                                            <h1 className='key-name text-dark'>
+                                                <i className="bi bi-gem px-3"></i>
+                                                THE {key.name.toUpperCase()} KEY
+                                            </h1> 
                                         </button>
                                     </h2>
                                     <div 
@@ -42,7 +47,12 @@ export function Membership() {
                                                         )
                                                     })
                                                 }
-                                                <h4>Your pay ${key.price} per month.</h4>
+                                                <h4>This is priced at ${key.amount}. You pay ${key.price} per month.</h4>
+                                                <NavLink to={'/tickets/' + key.name}>
+                                                    <button className="btn btn-danger my-3">
+                                                        <h4>Purchase {key.name} Key</h4>
+                                                    </button>
+                                                </NavLink>
                                             </ul>
                                         </div>
                                     </div>

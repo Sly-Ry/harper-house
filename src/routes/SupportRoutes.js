@@ -13,6 +13,8 @@ import CustomBanner from "../components/CustomBanner";
 import archiveBackground from '../assets/images/support.jpg'
 import { navItems } from "../data/NavItems";
 
+import '../assets/styles/Support.css'
+
 export default function SupportRoutes() {
     return (
         <>
@@ -67,7 +69,7 @@ export default function SupportRoutes() {
                             <Route path='donate' element={<Donate />} /> 
                         </Routes>
                     </div>
-                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center">
+                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center py-3">
                         <div className="card p-5 text-center">
                             <div className="card-body member">
                                 <h4>SERVING TREASURER</h4>

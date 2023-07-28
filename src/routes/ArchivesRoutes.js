@@ -39,7 +39,7 @@ export default function ArchivesRoutes() {
                             <Route path=':id' element={<Seasons />} />
                         </Routes>
                     </div>
-                    <div className="col-lg-12 col-xl-2 d-flex justify-content-center align-items-center">
+                    <div className="col-lg-12 col-xl-2 d-flex justify-content-center align-items-center py-3">
                         <div className="card p-5 text-center">
                             <div className="card-body member">
                                 <h4>SERVING LIBRARIAN</h4>
