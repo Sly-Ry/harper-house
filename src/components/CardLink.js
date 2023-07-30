@@ -7,7 +7,7 @@ export default function CardLink({ subtitle, title }) {
             <div className="container-fluid py-5 text-center">
                 <div className="
                     row 
-                    row-col-2 
+                    row-cols-lg-2
                     d-flex 
                     align-items-center 
                     justify-content-center
@@ -19,15 +19,14 @@ export default function CardLink({ subtitle, title }) {
                                 <>
                                     {menu.submenu.map(item => {
                                         return (
-                                            <div key={item.id} className="col-12 col-md-12 col-lg-4 m-5">
+                                            <div key={item.id} className="col-sm-12 col-lg-10 col-xl-6 px-5 py-2">
                                                 <div className="card rounded-0">
-                                                    <img src={item.photo} className="card-img-top p-3 pb-0" alt="" />
+                                                    <img src={item.photo} className="card-img-top p-0" alt="" />
                                                     <div className="card-body px-5 pt-3 pb-4">
                                                         <h1 className="card-title">{item.title}</h1>
                                                         <p className="card-text">{item.text}</p>
                                                         <div className='bar'></div>
-                                                        <NavLink to={item.path}>
-                                                            <p>inQuery?</p>
+                                                        <NavLink to={item.path} className="stretched-link">
                                                         </NavLink>
                                                     </div>
                                                 </div>

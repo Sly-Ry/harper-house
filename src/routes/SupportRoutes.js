@@ -13,7 +13,7 @@ import '../assets/styles/Support.css'
 export default function SupportRoutes() {
     return (
         <>
-            <CustomBanner title={"Support Us"} background={archiveBackground}/>
+            <CustomBanner title={"Support Us"} background={archiveBackground} mxh={'58vh'}/>
             <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">

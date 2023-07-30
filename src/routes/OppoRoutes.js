@@ -12,7 +12,7 @@ import { navItems } from "../data/NavItems";
 export default function OppoRoutes() {
     return (
         <>
-            <CustomBanner title={"Opportunity"} background={archiveBackground}/>
+            <CustomBanner title={"Opportunity"} background={archiveBackground} mxh={'58vh'}/>
             <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">
