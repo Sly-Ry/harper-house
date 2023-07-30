@@ -167,30 +167,7 @@ export const navItems = [
                 title: 'Sponsorship',
                 path: 'sponsorship',
                 photo: photo3,
-                text: "What's in store.",
-                submenu: [
-                    {
-                        id: 1,
-                        title: 'Community',
-                        path: 'community',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                    {
-                        id: 2,
-                        title: 'Corporate',
-                        path: 'corporate',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                    {
-                        id: 3,
-                        title: 'Individual',
-                        path: 'individual',
-                        photo: photo3,
-                        text: "What's in store."
-                    },
-                ]
+                text: "What's in store."
             },
             {
                 id: 3,

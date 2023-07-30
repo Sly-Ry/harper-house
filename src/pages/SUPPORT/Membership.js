@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export function Membership() {
     return (
         <>
-            <h1>BECOME A MEMBER</h1>
+            <h1 className="text-center">BECOME A MEMBER</h1>
             <p>When you become a member of the House, you become a part of our family. 27% of every membership goes towards our Free Fox Initiative, a fund established with the intent and goal of increasing the pay artists who create at <span>HARPER HOUSE</span></p>
             <p>Harper House offers four keys (or levels) of Membership:</p>
             {
