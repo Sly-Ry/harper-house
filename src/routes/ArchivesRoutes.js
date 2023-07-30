@@ -13,18 +13,18 @@ export default function ArchivesRoutes() {
     return (
         <>
             <CustomBanner title={"Archives"} background={archiveBackground}/>
-            <div className="archive-routes container-fluid">
+            <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">
-                        <nav className="nav flex-column bg-white">
-                            <NavLink to='/archives' className="arch-nav py-2 fs-6">Archives</NavLink>
+                        <nav className="nav flex-column">
+                            <NavLink to='/archives' className="arch-nav py-2 fs-6 text-white">Archives</NavLink>
                             {
                                 ArchiveItems.toReversed().map(items => {
                                     return (
                                         <NavLink 
                                         key={items.id}
                                             to={items.path} 
-                                            className="arch-nav py-2 fs-6" 
+                                            className="arch-nav py-2 fs-6 text-white" 
                                         >
                                             S{items.id}: {items.yr} || {items.title}
                                         </NavLink>
@@ -33,17 +33,17 @@ export default function ArchivesRoutes() {
                             }
                         </nav>
                     </div>
-                    <div className="col-12 col-lg-12 col-xl-7 p-5 bg-danger">
+                    <div className="col-12 col-lg-12 col-xl-6 p-5 bg-white">
                         <Routes>
                             <Route index element={<Archives />} />
                             <Route path=':id' element={<Seasons />} />
                         </Routes>
                     </div>
-                    <div className="col-lg-12 col-xl-2 d-flex justify-content-center align-items-center py-3">
-                        <div className="card p-5 text-center">
+                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center py-3">
+                        <div className="card w-75 text-center">
                             <div className="card-body member">
-                                <h4>SERVING LIBRARIAN</h4>
-                                <h2>Wilma Flintstone</h2>
+                                <h5>SERVING LIBRARIAN</h5>
+                                <h1 className='text-dark'>Wilma Flintstone</h1>
                                 <p>1234@email.com</p>
                                 <p>(###) ###-####</p>
                             </div>

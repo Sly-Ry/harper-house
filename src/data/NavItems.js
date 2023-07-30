@@ -185,13 +185,6 @@ export const navItems = [
         submenu: [
             {
                 id: 1,
-                title: 'Working at Harper',
-                path: 'working-at',
-                photo: photo3,
-                text: "What's in store."
-            },
-            {
-                id: 3,
                 title: 'Auditions',
                 path: 'auditions',
                 photo: photo3,
@@ -199,25 +192,25 @@ export const navItems = [
             },
             {
                 id: 2,
-                title: 'Internship',
-                path: 'internship',
+                title: 'Internships',
+                path: 'internships',
                 photo: photo3,
                 text: "What's in store."
             },
             {
-                id: 4,
+                id: 3,
                 title: 'Volunteer',
                 path: 'volunteer',
                 photo: photo3,
                 text: "What's in store."
             },
-            // {
-            //     id: 5,
-            //     title: 'Rentals',
-            //     path: 'rentals',
-            //     photo: photo3,
-            //     text: "What's in store."
-            // }
+            {
+                id: 4,
+                title: 'Rentals',
+                path: 'rentals',
+                photo: photo3,
+                text: "What's in store."
+            }
         ]
     },
     {

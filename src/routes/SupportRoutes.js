@@ -1,14 +1,9 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import { Support } from '../pages/SUPPORT/Support';
-// import { Offering } from '../pages/SUPPORT/Offering';
-// import { HowTo } from '../pages/SUPPORT/How-To';
 import { Membership } from '../pages/SUPPORT/Membership';
 import { Sponsorship } from '../pages/SUPPORT/Sponsorship';
-// import { Community } from '../pages/SUPPORT/Community';
-// import { Corporate } from '../pages/SUPPORT/Corporate';
-// import { Individual } from '../pages/SUPPORT/Individual';
-
 import { Donate } from '../pages/SUPPORT/Donate';
+
 import CustomBanner from "../components/CustomBanner";
 import archiveBackground from '../assets/images/support.jpg'
 import { navItems } from "../data/NavItems";
@@ -56,24 +51,15 @@ export default function SupportRoutes() {
                         <Routes>
                             <Route index element={<Support />} />
                             <Route path='membership' element={<Membership />} />
-                            {/* <Route exact path='offering'> */}
-                                {/* <Route index element={<Offering />} />
-                                <Route path='how-to' element={<HowTo />} />
-                            {/* </Route> */}
-                            <Route exact path='/sponsorship'>
-                                <Route index element={<Sponsorship />} />
-                                {/* <Route path='community' element={<Community />} />
-                                <Route path='corporate' element={<Corporate />} />
-                                <Route path='individual' element={<Individual />} /> */}
-                            </Route>
+                            <Route path='/sponsorship'element={<Sponsorship />} />
                             <Route path='donate' element={<Donate />} /> 
                         </Routes>
                     </div>
                     <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center py-3">
-                        <div className="card p-5 text-center">
+                    <div className="card w-75 text-center">
                             <div className="card-body member">
-                                <h4>SERVING TREASURER</h4>
-                                <h2>Jill Valentine</h2>
+                                <h5>SERVING TREASURER</h5>
+                                <h1 className='text-dark'>Jill Valentine</h1>
                                 <p>1234@email.com</p>
                                 <p>(###) ###-####</p>
                             </div>
