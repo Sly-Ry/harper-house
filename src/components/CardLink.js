@@ -9,7 +9,6 @@ export default function CardLink({ subtitle, title }) {
                     row 
                     row-cols-lg-2
                     d-flex 
-                    align-items-center 
                     justify-content-center
                     gy-5"
                 >
@@ -23,8 +22,8 @@ export default function CardLink({ subtitle, title }) {
                                                 <div className="card rounded-0">
                                                     <img src={item.photo} className="card-img-top p-0" alt="" />
                                                     <div className="card-body px-5 pt-3 pb-4">
-                                                        <h1 className="card-title">{item.title}</h1>
-                                                        <p className="card-text">{item.text}</p>
+                                                        <h1 className="card-title fs-1">{item.title}</h1>
+                                                        <p className="card-text" style={{fontStyle: 'italic'}}>{item.text}</p>
                                                         <div className='bar'></div>
                                                         <NavLink to={item.path} className="stretched-link">
                                                         </NavLink>

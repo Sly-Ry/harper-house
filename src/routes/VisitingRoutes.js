@@ -6,7 +6,6 @@ import { TheGallery } from '../pages/VISIT/VENUES/TheGallery';
 import { Parking } from '../pages/VISIT/Parking';
 import { Tours } from '../pages/VISIT/Tours';
 import { Accessibility } from '../pages/VISIT/Accessibility';
-import { FAQ } from '../pages/FAQ'
 
 export default function VisitingRoutes() {
     return (
@@ -21,7 +20,6 @@ export default function VisitingRoutes() {
                 <Route path='parking' element={<Parking />} />
                 <Route path='tours' element={<Tours />} />
                 <Route path='accessibility' element={<Accessibility />} />
-                <Route path='faq' element={<FAQ />} />
             </Routes>
         </>
     )

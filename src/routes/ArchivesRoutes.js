@@ -12,7 +12,7 @@ import "../assets/styles/Archive.css"
 export default function ArchivesRoutes() {
     return (
         <>
-            <CustomBanner title={"Archives"} background={archiveBackground}/>
+            <CustomBanner title={"Archives"} background={archiveBackground} mxh={'58vh'}/>
             <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">

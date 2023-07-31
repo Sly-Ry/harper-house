@@ -8,12 +8,10 @@ import CustomBanner from "../components/CustomBanner";
 import archiveBackground from '../assets/images/support.jpg'
 import { navItems } from "../data/NavItems";
 
-import '../assets/styles/Support.css'
-
 export default function SupportRoutes() {
     return (
         <>
-            <CustomBanner title={"Support Us"} background={archiveBackground} mxh={'58vh'}/>
+            <CustomBanner title={"Support Us"} background={archiveBackground} mxh={'90vh'}/>
             <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">
