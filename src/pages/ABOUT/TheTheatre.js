@@ -3,7 +3,7 @@ import photo from '../../assets/images/about-us.jpg'
 export function TheTheatre() {
     return (
         <>
-            <div className="about bg-white">
+            <div className="theatre bg-white">
                 <div className="col-12 my-5 py-5" style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>
                 <div className="col-12">
                     <div className="row d-flex flex-row align-items-center justify-content-center text-center">

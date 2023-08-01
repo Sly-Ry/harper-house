@@ -3,10 +3,10 @@ import { About } from '../pages/ABOUT/About';
 import { TheTheatre } from '../pages/ABOUT/TheTheatre';
 import { History } from '../pages/ABOUT/History';
 import { Diversity } from '../pages/ABOUT/Diversity';
-// import { TheTeam } from './pages/TheTeam';
-// import { Leadership } from './pages/Leadership';
-// import { Staff } from './pages/Staff';
-// import { Board } from './pages/Board';
+import { TheTeam } from '../pages/ABOUT/TheTeam';
+import { Leadership } from '../pages/ABOUT/Leadership.js';
+import { Staff } from '../pages/ABOUT/Staff';
+import { Board } from '../pages/ABOUT/Board';
 import { Contact } from '../pages/ABOUT/Contact';
 // import { FAQ } from './pages/FAQ';
 
@@ -25,13 +25,13 @@ export default function AboutRoutes() {
                         <Route path='history' element={<History />} />
                         <Route path='diversity' element={<Diversity />} />
                     </Route>
-                    {/* <Route path='the-team'>
+                    <Route path='the-team/*'>
                         <Route index element={<TheTeam />} />
                         <Route path='leadership' element={<Leadership />} />
                         <Route path='staff' element={<Staff />} />
                         <Route path='board' element={<Board />} />
                     </Route>
-                    <Route path='faq' element={<FAQ />} /> */}
+                     {/*<Route path='faq' element={<FAQ />} /> */}
                     <Route path='contact' element={<Contact />} />
                 </Routes>
             </div>
