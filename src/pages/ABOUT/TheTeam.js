@@ -27,12 +27,12 @@ export function TheTeam() {
                         </div>
                     </div>
                     <div className="row my-5 px-3 d-flex justify-content-center align-items-center">
-                        <div className="col-10">
+                        <div className="col-8">
                             
                             <div className="card">
                                 <img src={photo} alt="The Harper House team hanging out." className=''/>
                             </div>
-                            <p className='pt-2 fs-6'>*commissioned by: Jessica Jones</p>
+                            <p className='pt-2 fs-6'>*commissioned from Jessica Jones</p>
                             <hr />
                             <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quae beatae quos. Earum inventore praesentium temporibus veniam, ducimus.</h4>
                         </div>

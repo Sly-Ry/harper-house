@@ -8,7 +8,7 @@ import { Leadership } from '../pages/ABOUT/Leadership.js';
 import { Staff } from '../pages/ABOUT/Staff';
 import { Board } from '../pages/ABOUT/Board';
 import { Contact } from '../pages/ABOUT/Contact';
-// import { FAQ } from './pages/FAQ';
+import { FAQ } from '../pages/ABOUT/FAQ';
 
 
 export default function AboutRoutes() {
@@ -31,7 +31,7 @@ export default function AboutRoutes() {
                         <Route path='staff' element={<Staff />} />
                         <Route path='board' element={<Board />} />
                     </Route>
-                     {/*<Route path='faq' element={<FAQ />} /> */}
+                     <Route path='faq' element={<FAQ />} />
                     <Route path='contact' element={<Contact />} />
                 </Routes>
             </div>
