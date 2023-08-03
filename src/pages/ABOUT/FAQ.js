@@ -4,6 +4,7 @@ export function FAQ() {
         <>
             <div className="faq bg-white">
                     <div className="col-12 my-4 py-5"  style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>
+                    <h1 className="text-center fs-1" style={{textDecoration: 'underline'}}>FAQ</h1>
                     <div className="row row-cols-2 d-flex justify-content-center">
                         <div className="col-4 mx-5 pb-5">
                     {
@@ -12,18 +13,18 @@ export function FAQ() {
                                 return (
                                     <>
                                         <h3 className='pt-5'>{items.type}</h3>
-                                        <div className="accordion accordion-flush" id="accordionFlushExample">
+                                        <div className="accordion accordion-flush" id={"accordionFlushBoxLeft-" + items.type}>
                                             {
                                                 items.questions.map(item => {
                                                     return (
                                                         <>
                                                             <div className="accordion-item">
-                                                                <h2 className="accordion-header" id={"flush-heading" + item.type}>
-                                                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse" + item.type} aria-expanded="false" aria-controls={"flush-collapse" + item.type}>
+                                                                <h2 className="accordion-header" id={"flush-heading-" + item.type}>
+                                                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse-" + item.type} aria-expanded="false" aria-controls={"flush-collapse-" + item.type}>
                                                                         {item.question}
                                                                     </button>
                                                                 </h2>
-                                                                <div id={"flush-collapse" + item.type} className="accordion-collapse collapse" aria-labelledby={"flush-heading" + item.type} data-bs-parent="#accordionFlushExample">
+                                                                <div id={"flush-collapse-" + item.type} className="accordion-collapse collapse" aria-labelledby={"flush-heading-" + item.type} data-bs-parent="#accordionFlushBox">
                                                                     <div className="accordion-body">{item.answer}</div>
                                                                 </div>
                                                             </div>
@@ -46,18 +47,18 @@ export function FAQ() {
                             return (
                                 <>
                                         <h3 className='pt-5'>{items.type}</h3>
-                                        <div className="accordion accordion-flush" id="accordionFlushExample">
+                                        <div className="accordion accordion-flush" id={"accordionFlushBoxRight-" + items.type}>
                                             {
                                                 items.questions.map(item => {
                                                     return (
                                                         <>
                                                             <div className="accordion-item">
-                                                                <h2 className="accordion-header" id={"flush-heading" + item.type}>
-                                                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse" + item.type} aria-expanded="false" aria-controls={"flush-collapse" + item.type}>
+                                                                <h2 className="accordion-header" id={"flush-heading-" + item.type}>
+                                                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse-" + item.type} aria-expanded="false" aria-controls={"flush-collapse-" + item.type}>
                                                                         {item.question}
                                                                     </button>
                                                                 </h2>
-                                                                <div id={"flush-collapse" + item.type} className="accordion-collapse collapse" aria-labelledby={"flush-heading" + item.type} data-bs-parent="#accordionFlushExample">
+                                                                <div id={"flush-collapse-" + item.type} className="accordion-collapse collapse" aria-labelledby={"flush-heading-" + item.type} data-bs-parent="#accordionFlushBox">
                                                                     <div className="accordion-body">{item.answer}</div>
                                                                 </div>
                                                             </div>
