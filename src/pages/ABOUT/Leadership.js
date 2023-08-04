@@ -14,7 +14,7 @@ export function Leadership() {
                             </NavLink>
                         </div>
                         <div className="col-3">
-                            <h1 className="text-center fs-1" style={{textDecoration: 'underline'}}>Leadership</h1>
+                            <h1 className="text-center fs-1">Leadership</h1>
                         </div>
                         <div className="col-3">
                             <NavLink to='/about/the-team/staff'>

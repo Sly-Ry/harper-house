@@ -8,7 +8,7 @@ export function TheTeam() {
                 <div className="col-12">
                     <div className="row d-flex flex-row align-items-center justify-content-center text-center">
                         <div className="col-3">
-                            <h1 className="text-center fs-1" style={{textDecoration: 'underline'}}>The Team</h1>
+                            <h1 className="text-center fs-1">The Team</h1>
                         </div>
                         <div className="col-3">
                             <NavLink to='/about/the-team/leadership'>

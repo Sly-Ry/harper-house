@@ -12,7 +12,7 @@ import "../assets/styles/Archive.css"
 export default function ArchivesRoutes() {
     return (
         <>
-            <CustomBanner title={"Archives"} background={archiveBackground} mxh={'58vh'}/>
+            <CustomBanner title={"Archives"} background={archiveBackground} mxh={'90vh'}/>
             <div className="archive-routes container-fluid page">
                 <div className="row">
                     <div className="col-12 col-lg-12 col-xl-3 p-5">
@@ -39,7 +39,7 @@ export default function ArchivesRoutes() {
                             <Route path=':id' element={<Seasons />} />
                         </Routes>
                     </div>
-                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center py-3">
+                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-start py-3">
                         <div className="card w-75 text-center">
                             <div className="card-body member">
                                 <h5>SERVING LIBRARIAN</h5>

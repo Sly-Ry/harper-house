@@ -20,7 +20,7 @@ export function Staff() {
                         </div>
                         <div className="col-3">
                             <NavLink to='/about/the-team/staff'>
-                            <h1 className="text-center fs-1" style={{textDecoration: 'underline'}}>Staff</h1>
+                            <h1 className="text-center fs-1">Staff</h1>
                             </NavLink>
                         </div>
                         <div className="col-3">

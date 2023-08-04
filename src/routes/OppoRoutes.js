@@ -55,8 +55,8 @@ export default function OppoRoutes() {
                             <Route path='rentals' element={<Rentals />} />
                         </Routes>
                     </div>
-                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-center py-3">
-                    <div className="card w-75 text-center">
+                    <div className="col-lg-12 col-xl-3 d-flex justify-content-center align-items-start py-3">
+                        <div className="card w-75 text-center">
                             <div className="card-body member">
                                 <h5>SERVING MANAGER</h5>
                                 <h1 className='text-dark'>Walter White</h1>
