@@ -11,14 +11,14 @@ export default function NavbarTop() {
                     <a href="/tickets">TICKETS</a>
                 </li>
                 <li>
-                    <a href="/subscribe">SUBSCRIBE</a>
+                    <a href="/harper-house/shows-events/subscribe">SUBSCRIBE</a>
                 </li>
                 <li>
-                    <a href="/donate">DONATE</a>
+                    <a href="/harper-house/support/donate">DONATE</a>
                 </li>
-                <li>
-                    <a href="/calendar">CALENDAR</a>
-                </li>
+                {/* <li>
+                    <a href="/" className="btn disabled border-0 text-white">CALENDAR</a>
+                </li> */}
                 <li>
                     <a href="/signup-login">LOGIN</a>
                 </li>
