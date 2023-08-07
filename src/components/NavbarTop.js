@@ -8,7 +8,7 @@ export default function NavbarTop() {
                     </a>
                 </li>
                 <li>
-                    <a href="/tickets">TICKETS</a>
+                    <a href="/harper-house/tickets">TICKETS</a>
                 </li>
                 <li>
                     <a href="/harper-house/shows-events/subscribe">SUBSCRIBE</a>
@@ -20,7 +20,7 @@ export default function NavbarTop() {
                     <a href="/" className="btn disabled border-0 text-white">CALENDAR</a>
                 </li> */}
                 <li>
-                    <a href="/signup-login">LOGIN</a>
+                    <a href="/signup-login" className="btn disabled border-0 text-white">LOGIN</a>
                 </li>
             </ul>
         </div>

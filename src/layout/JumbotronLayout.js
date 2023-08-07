@@ -6,14 +6,14 @@ export default function JumbotronLayout() {
 
     return ( 
         <>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleFade" className="banner-box carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="8000">
                             <img src={photo1} className="d-block w-100" alt=""/>
                             <div className='info'>
-                                <h2>Welcome to<span> HARPER HOUSE</span></h2>
+                                <h2 className='fs-1'>Welcome to<span> HARPER HOUSE</span></h2>
                                 <div className="info-box">
-                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote col-12 text-start'>There's no place like home</p>
                                     <p className='quote-author'> - <span>Dorothy</span></p>
                                 </div>
                             </div>
@@ -21,9 +21,9 @@ export default function JumbotronLayout() {
                         <div className="carousel-item" data-bs-interval="8000">
                             <img src={photo2} className="d-block w-100" alt=""/>
                             <div className='info'>
-                                <h2>Welcome to<span> HARPER HOUSE</span></h2>
+                                <h2 className='fs-1'>Welcome to<span> HARPER HOUSE</span></h2>
                                 <div className="info-box">
-                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote col-12 text-start'>There's no place like home</p>
                                     <p className='quote-author'> - <span>Dorothy</span></p>
                                 </div>
                             </div>
@@ -31,9 +31,9 @@ export default function JumbotronLayout() {
                         <div className="carousel-item" data-bs-interval="8000">
                             <img src={photo3} className="d-block w-100" alt=""/>
                             <div className='info'>
-                                <h2>Welcome to<span> HARPER HOUSE</span></h2>
+                                <h2 className='fs-1'>Welcome to<span> HARPER HOUSE</span></h2>
                                 <div className="info-box">
-                                    <p className='quote'>There's no place like home</p>
+                                    <p className='quote col-12 text-start'>There's no place like home</p>
                                     <p className='quote-author'> - <span>Dorothy</span></p>
                                 </div>
                             </div>

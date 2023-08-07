@@ -8,7 +8,6 @@ export default function Navbar() {
             <h2 className="sr-only">Navigation</h2>
             <NavbarTop />
             <NavbarBottom />
-            <div className="nav-bar-flyout-menu-container"></div>
         </nav>
     ) 
 }

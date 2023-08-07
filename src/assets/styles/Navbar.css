@@ -42,30 +42,13 @@ a.nav-bar__top-link:visited,
 
 /* NAVIGATION BOTTOM */
 .nav-bar__bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
     background-color: #0000007a;
     height: 80px;
-    overflow: hidden;
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-  
 
 .nav-bar__logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 15rem;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color: white !important;
     font-size: 2rem;
     letter-spacing: -2px;
 }
@@ -77,18 +60,11 @@ a.nav-bar__top-link:visited,
 }
 
 .menus {
-    display: flex;
     list-style: none;
     width: 75vw;
     justify-content: flex-end;
 }
 
-.drop-items {
-    position: relative;
-    display: flex;
-    height: 100%;
-    margin-right: 20px;
-}
 
 /* .menus button */
 .drop-items button
@@ -96,11 +72,9 @@ a.nav-bar__top-link:visited,
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 18px;
     border: none;
     cursor: pointer;
-    padding: 0;
-    
+    padding-bottom: 0;
     background-color: transparent;
 }
 
@@ -109,7 +83,7 @@ a.nav-bar__top-link:visited,
     align-items: center;
     height: 100%;
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.548);
     letter-spacing: 1px;
     text-decoration: none;
@@ -138,10 +112,10 @@ a:visited:hover .arrow::after  {
 /* -- dropdown menu -- */
 .dropdown {
     position: absolute;
-    top: 5rem;
+    top: 8rem;
     list-style: none;
     padding: 0;
-    min-width: 12rem;
+    max-width: 12rem;
     z-index: 9999;
     background-color: #ffffff;
     display: none;
@@ -153,7 +127,7 @@ a:visited:hover .arrow::after  {
 
 .dropdown .drop-items a
 {
-    padding: 25px 30px;
+    padding: 25px;
     color: rgb(77, 77, 77);
     width: 100%;
     font-size: 15px;
@@ -172,20 +146,46 @@ a:visited:hover .arrow::after  {
 /* -- submenu left/right position -- */
 .dropdown.dropdown-submenu {
     position: absolute;
-    width: 12rem;
+    width: 10rem;
     left: 100%;
     top: 1px;
 }
 
 .menus .drop-items:not(.dropdown .drop-items):last-of-type .dropdown.dropdown-submenu {
-    left: -192px;
+    left: -160px;
 }
 
+.form-box {
+    display: none;
+}
+
+.c-height {
+    height: 130px;
+}
 
 /* MEDIA QUERIES */
-@media (max-width: 1290px) {
+@media (max-width: 1199px) {
+    
+    .nav-bar__bottom {
+        background-color: #292929;
+        height: 150px;
+    }
+
+    .nav-bar__bottom .nav-bar__logo {
+        font-size: 2.7rem;
+    }
+
+    .menus {
+        display: none !important;
+    }
     
     .nav-bar__top-wrapper {
         display: none;
+    }
+
+    .form-box {
+        display: flex;
+        position: relative;
+        top: -50px;
     }
 }

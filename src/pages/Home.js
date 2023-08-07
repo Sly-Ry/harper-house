@@ -24,7 +24,6 @@ export function Home() {
                         </div>
                     </div>
                 </div>
-                {/* Future feature: Donate */}
             </div>
         </>
     ) 

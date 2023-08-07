@@ -14,30 +14,30 @@ import { FAQ } from '../pages/ABOUT/FAQ';
 export default function AboutRoutes() {
     return (
         <>
-        <div className="about-pages container-fluid page">
-            <div className="row">
-            <div className="col-sm-2"></div>
-            <div className="col-sm-8 p-0">
-                <Routes>
-                    <Route index element={<About />} />
-                    <Route path='the-theatre/*' >
-                        <Route index element={<TheTheatre />} />
-                        <Route path='history' element={<History />} />
-                        <Route path='diversity' element={<Diversity />} />
-                    </Route>
-                    <Route path='the-team/*'>
-                        <Route index element={<TheTeam />} />
-                        <Route path='leadership' element={<Leadership />} />
-                        <Route path='staff' element={<Staff />} />
-                        <Route path='board' element={<Board />} />
-                    </Route>
-                     <Route path='faq' element={<FAQ />} />
-                    <Route path='contact' element={<Contact />} />
-                </Routes>
+            <div className="about-pages container-fluid page">
+                <div className="row">
+                    <div className="col-sm-2"></div>
+                    <div className="col-sm-8 p-0">
+                        <Routes>
+                            <Route index element={<About />} />
+                            <Route path='the-theatre/*' >
+                                <Route index element={<TheTheatre />} />
+                                <Route path='history' element={<History />} />
+                                <Route path='diversity' element={<Diversity />} />
+                            </Route>
+                            <Route path='the-team/*'>
+                                <Route index element={<TheTeam />} />
+                                <Route path='leadership' element={<Leadership />} />
+                                <Route path='staff' element={<Staff />} />
+                                <Route path='board' element={<Board />} />
+                            </Route>
+                            <Route path='faq' element={<FAQ />} />
+                            <Route path='contact' element={<Contact />} />
+                        </Routes>
+                    </div>
+                    <div className="col-sm-2"></div>
+                </div>
             </div>
-            <div className="col-sm-2"></div>
-            </div>
-        </div>
         </>
     )
 } 

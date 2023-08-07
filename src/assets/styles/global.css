@@ -95,15 +95,10 @@ li {
   font-size: 8rem;
   font-weight: bold;
   color: white;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.685);
 }
 
-@media screen and (max-width: 700px) {
-  .banner-box h2 {
-    font-size: 3.7rem;
-  }
-}
 
 /* PAGE STYLE */
 .page{
@@ -179,4 +174,29 @@ li {
 .list-group li {
   background-color: transparent;
   border: none;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1199px) {
+
+  .banner-box {
+    margin-top: 8rem;
+  }
+
+  .banner-box p {
+    font-size: 1.2rem;
+  }
+
+  .banner-box h2 {
+    margin-top: 100px;
+    font-size: 5rem;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .banner-box h2 {
+    font-size: 3.7rem;
+  }
 }

@@ -9,19 +9,31 @@ export default function NavbarBottom() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 50);
+            setScroll(window.scrollY > 25);
         });
     }, []);
 
     return (
         <>
-            <div id='nav' className={scroll ? "nav-bar__bottom fixed-top bg-dark" : 'nav-bar__bottom'} aria-label="Main Menu">
-                <Link to='/' className='nav-bar__logo'>
-                    <span>HARPER</span>
-                    <span className='icon' style={{color: 'red'}}><Icons.FaHome /></span>
-                    <span>HOUSE</span>
-                </Link>
-                <Navbar />
+            <div 
+                className={
+                    scroll ?
+                    "nav-bar__bottom c-height fixed-top bg-dark row p-0" : 
+                    'nav-bar__bottom row m-0 p-0'
+                } 
+                aria-label="Main Menu"
+            >
+                <div className="col-md-12 col-xl-3 d-flex justify-content-center align-items-center">
+                    <Link to='/' className='nav-bar__logo text-white text-center d-flex align-items-center py-4'>
+                        <span>HARPER</span>
+                        <span className='icon' style={scroll ? {color: 'red'} : {color: 'goldenrod'}}><Icons.FaHome /></span>
+                        <span>HOUSE</span>
+                    </Link>
+                    
+                </div>
+                <div className="col-md-12 col-xl-9">
+                    <Navbar />
+                </div>
             </div>
         </>  
     ) 

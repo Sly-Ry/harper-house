@@ -6,6 +6,7 @@ import ArchivesRoutes from './routes/ArchivesRoutes';
 import SupportRoutes from './routes/SupportRoutes';
 import OppoRoutes from './routes/OppoRoutes';
 import AboutRoutes from './routes/AboutRoutes';
+import TicketsRoutes from './routes/TicketsRoutes';
 import { Error } from './pages/Error'
 
 // import ThemeToggler from './utils/ThemeToggler';
@@ -26,6 +27,7 @@ export default function App() {
       <Route path='/support/*' element={<SupportRoutes />} />
       <Route path='/oppo/*' element={<OppoRoutes />} />
       <Route path='/about/*' element={<AboutRoutes />} />
+      <Route path='/tickets/*' element={<TicketsRoutes />} />
       <Route exact path='*' element={<Error />} />
     </Routes>
     {/* Back to top button */}

@@ -1,5 +1,5 @@
 import CardLink from '../../components/CardLink';
-import archiveBackground from '../../assets/images/about-us.jpg'
+import archiveBackground from '../../assets/images/about-us.jpg';
 import CustomBanner from "../../components/CustomBanner";
 
 export function About() {

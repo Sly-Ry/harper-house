@@ -26,7 +26,7 @@ export default function DropdownItems({ path, items, depthLevel, submenu }) {
 
 
     return (
-        <li className='drop-items'
+        <li className='drop-items d-flex h-100'
             ref={ref}
             onMouseEnter={() => setDropdown(true)}
             onMouseLeave={() => setDropdown(false)}

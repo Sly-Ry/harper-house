@@ -81,7 +81,7 @@
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1199px) {
       
     .jumbo .slide img,
     .carousel-item img {

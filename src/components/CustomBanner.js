@@ -1,5 +1,3 @@
-// import { navItems } from "../data/NavItems"
-
 export default function CustomBanner({ title, background, mxh }) {
 
     return ( 
