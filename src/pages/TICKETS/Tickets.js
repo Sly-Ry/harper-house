@@ -1,5 +1,5 @@
 import { showList } from "../../data/ShowList";
-// import { keys } from "../../data/ResidencyKeys";
+import { keys } from "../../data/ResidencyKeys";
 import { NavLink } from "react-router-dom";
 
 
@@ -27,7 +27,7 @@ export default function Tickets(){
                                                 if (shows.id < 2){
                                                     return (
                                                         <>
-                                                            <div className="card col-12 mb-5 pt-5" >
+                                                            <div key={shows.id} className="card col-12 mb-5 pt-5" >
                                                                 <div className="row d-flex justify-content-evenly g-0">
                                                                     <div className="col-12 col-lg-4 d-flex align-items-start">
                                                                         <img src={shows.img} className="img-fluid m-0 p-0" alt="..."/>
@@ -35,7 +35,7 @@ export default function Tickets(){
                                                                     <div className="col-12 col-lg-7">
                                                                         <div className="card-body">
                                                                             <NavLink to={shows.path}>
-                                                                                <h3 className="card-title" style={{fontWeight: 'bold'}}>{shows.title}</h3>
+                                                                                <h3 className="underline card-title" style={{fontWeight: 'bold'}}>{shows.title}</h3>
                                                                             </NavLink>
                                                                             <h4 className="card-date">{shows.date}</h4>
                                                                             <hr/>
@@ -53,7 +53,7 @@ export default function Tickets(){
                                                 else {
                                                     return (
                                                         <>
-                                                            <div className="card col-12 mb-5 py-5" >
+                                                            <div key={shows.id} className="card col-12 mb-5 py-5" >
                                                                 <div className="row d-flex justify-content-evenly g-0">
                                                                     <div className="col-12 col-lg-4 d-flex align-items-start">
                                                                         <img src={shows.img} className="img-fluid m-0 p-0" alt="..."/>
@@ -94,7 +94,7 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="card-title">UNO</h1>
+                                                <h1 className="underline card-title">UNO</h1>
                                                 <p className="mx-2">Single Pass (1): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -105,7 +105,7 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="card-title">DOS</h1>
+                                                <h1 className="underline card-title">DOS</h1>
                                                 <p className="mx-2">Two Passes (2): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -116,7 +116,7 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="card-title">TRES</h1>
+                                                <h1 className="underline card-title">TRES</h1>
                                                 <p className="mx-2">Three Passes (3): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -127,7 +127,7 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="card-title">QUATRO</h1>
+                                                <h1 className="underline card-title">QUATRO</h1>
                                                 <p className="mx-2">Four Passes (4): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -145,7 +145,32 @@ export default function Tickets(){
                             </h2>
                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    
+                                    <div className="row d-flex justify-content-center align-items-start">
+                                {
+                                    keys.map((key, index) => {
+                                        return (
+                                            <>
+                                            <div key={index} className="col-md-10 col-xl-6 col-xxl-3">
+                                                <div className="card bg-dark text-center m-2 pt-3">
+                                                    <div className="card-title pt-3">
+                                                        <i className="card-img bi bi-gem px-3" style={{color: key.color}}></i>
+                                                        <h1 className='card-img-overlay key-name text-white mt-4'>
+                                                           {key.name.toUpperCase()}
+                                                        </h1> 
+                                                    </div>
+                                                    <div className="card-body">
+                                                            <button className="btn btn-danger mb-3">
+                                                                <h4>Purchase</h4>
+                                                            </button>
+                                                        <h4 className="text-white fs-6" style={{fontStyle: 'italic'}}>${key.amount} value for ${key.price}</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </>
+                                        )
+                                    })
+                                }
+                                </div>
                                 </div>
                             </div>
                         </div>

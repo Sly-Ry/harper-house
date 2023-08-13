@@ -175,17 +175,19 @@ a:visited:hover .arrow::after  {
         font-size: 2.7rem;
     }
 
-    .menus {
-        display: none !important;
-    }
-    
+    .menus,
     .nav-bar__top-wrapper {
-        display: none;
+        display: none !important;
     }
 
     .form-box {
         display: flex;
         position: relative;
+        height: 50px;
         top: -50px;
+    }
+
+    .form-box .dropdown-box {
+        background-color: white;
     }
 }

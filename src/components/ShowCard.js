@@ -30,19 +30,7 @@ export default function ShowCard({ img, fontColor, fontFamily, title, date, syno
                             <h5>{date}</h5>
                         </div>
                         <p className="card-text">{synopsis}</p>
-                        
-                        <ul className="list-group list-group-flush pb-2 d-flex flex-row align-items-center justify-content-evenly">
-                            <li className="list-group-item">
-                                <NavLink href={'/show-info/' + path}>
-                                    inQuiry
-                                </NavLink>
-                            </li>
-                            <li className="list-group-item two">
-                                <NavLink href={'/tickets/' + path}>
-                                    Tickets
-                                </NavLink>
-                            </li>
-                        </ul>
+                        <NavLink to='/tickets' className="stretched-link"/>
                     </div>
                 </div>
             </div>

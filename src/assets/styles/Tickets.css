@@ -3,8 +3,7 @@
     color: rgb(199, 156, 16);
 }
 
-.tickets .card .card-body .card-title:hover,
-.tickets .accordion-item .card-title:hover  {
+.underline:hover{
     text-decoration: underline;
 }
 
@@ -20,4 +19,12 @@
     font-style: italic;
     font-size: 2rem;
     text-shadow: 0 2px 5px black;
+}
+
+.tickets i {
+    font-size: 5rem;
+}
+
+.card-title .key-name {
+    font-size: 3.2rem;
 }

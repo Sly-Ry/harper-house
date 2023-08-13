@@ -42,13 +42,13 @@ export default function Footer() {
                                 {/* FEATURE: HOME ADDRESS */}
                                 {/* <li className="list-group-item">Street Adress</li> */}
                                 <div className="icons fs-4">
-                                    <a href="/">
+                                    <a href="https://www.facebook.com/">
                                         <i className="bi bi-facebook"></i>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://twitter.com/?lang=en">
                                         <i className="bi bi-twitter"></i>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://www.instagram.com/">
                                         <i className="bi bi-instagram"></i>
                                     </a>
                                 </div>

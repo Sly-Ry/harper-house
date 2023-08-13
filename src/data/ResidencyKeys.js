@@ -1,6 +1,7 @@
 export const keys = [
     {
         id: 1,
+        color: 'crimson',
         name: "Talon",
         price: "25",
         amount: "40",
@@ -22,6 +23,7 @@ export const keys = [
     },
     {
         id: 2,
+        color: 'darkblue',
         name: "Wing",
         price: "150",
         amount: "200",
@@ -43,6 +45,7 @@ export const keys = [
     },
     {
         id: 3,
+        color: 'green',
         name: "Ridge",
         price: "275",
         amount: "340",
@@ -68,6 +71,7 @@ export const keys = [
     },
     {
         id: 4,
+        color: 'violet',
         name: "Plume",
         price: "400",
         amount: "550",
