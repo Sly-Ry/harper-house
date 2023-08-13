@@ -4,13 +4,14 @@ import ExtensionsLayout from '../layout/ExtensionsLayout'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import '../assets/styles/Home.css'
 import { NavLink } from 'react-router-dom';
-
+import StartToTop from '../utils/StartToTop.js'
 
 export function Home() {    
 
     return (
         <>
             <div className="home">
+                <StartToTop />
                 <JumbotronLayout />
                 <UpcomingLayout />
                 <ExtensionsLayout />

@@ -6,10 +6,12 @@ import { TheGallery } from '../pages/VISIT/VENUES/TheGallery';
 import { Parking } from '../pages/VISIT/Parking';
 import { Tours } from '../pages/VISIT/Tours';
 import { Accessibility } from '../pages/VISIT/Accessibility';
+import StartToTop from '../utils/StartToTop';
 
 export default function VisitingRoutes() {
     return (
         <>
+        <StartToTop />
             <Routes>
                 <Route index element={<Visiting />} />
                 <Route path='venues' >

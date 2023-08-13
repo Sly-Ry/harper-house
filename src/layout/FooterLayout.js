@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <div className="footer container-fluid py-0">
+            <div className="footer footer-line container-fluid py-0">
                 <div className="
                     row
                     py-2

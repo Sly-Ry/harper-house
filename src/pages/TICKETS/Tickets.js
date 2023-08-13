@@ -14,9 +14,9 @@ export default function Tickets(){
                     <div className="accordion accordion-flush" id="accordionFlushExample">
                         {/* SHOWS */}
                         <div className="accordion-item">
-                            <h2 className="accordion-header" id="flush-headingOne">
+                            <h2 className="accordion-header d-flex align-items-center justify-content-center" id="flush-headingOne">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <h4>Current Season</h4>
+                                    <h2>SHOWS & EVENTS</h2>
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -27,14 +27,14 @@ export default function Tickets(){
                                                 if (shows.id < 2){
                                                     return (
                                                         <>
-                                                            <div key={shows.id} className="card col-12 mb-5 pt-5" >
+                                                            <div key={shows.id} className="card mb-5 py-5" >
                                                                 <div className="row d-flex justify-content-evenly g-0">
-                                                                    <div className="col-12 col-lg-4 d-flex align-items-start">
+                                                                    <div className="col-lg-4 d-flex align-items-start">
                                                                         <img src={shows.img} className="img-fluid m-0 p-0" alt="..."/>
                                                                     </div>
-                                                                    <div className="col-12 col-lg-7">
+                                                                    <div className="col-lg-7">
                                                                         <div className="card-body">
-                                                                            <NavLink to={shows.path}>
+                                                                            <NavLink to="/tickets">
                                                                                 <h3 className="underline card-title" style={{fontWeight: 'bold'}}>{shows.title}</h3>
                                                                             </NavLink>
                                                                             <h4 className="card-date">{shows.date}</h4>
@@ -59,9 +59,9 @@ export default function Tickets(){
                                                                         <img src={shows.img} className="img-fluid m-0 p-0" alt="..."/>
                                                                     </div>
                                                                     <div className="col-12 col-lg-7">
-                                                                        <div className="card-body">
-                                                                            <NavLink to={shows.path}>
-                                                                                <h3 className="card-title" style={{fontWeight: 'bold'}}>{shows.title}</h3>
+                                                                        <div className=" card-body">
+                                                                            <NavLink to="/tickets">
+                                                                                <h3 className="underline card-title" style={{fontWeight: 'bold'}}>{shows.title}</h3>
                                                                             </NavLink>
                                                                             <h4 className="card-date">{shows.date}</h4>
                                                                             <hr/>
@@ -84,7 +84,7 @@ export default function Tickets(){
                         <div className="sp-accordion accordion-item">
                             <h2 className="accordion-header" id="flush-headingTwo">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    <h4>Season Pass</h4>
+                                    <h2>SEASON PASS</h2>
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" className="accordion-collapse collapse text-center" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -94,7 +94,9 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="underline card-title">UNO</h1>
+                                                <NavLink to='/tickets/'>
+                                                    <h1 className="underline card-title">UNO</h1>
+                                                </NavLink>
                                                 <p className="mx-2">Single Pass (1): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -105,7 +107,9 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="underline card-title">DOS</h1>
+                                                <NavLink>
+                                                    <h1 className="underline card-title">DOS</h1>
+                                                </NavLink>
                                                 <p className="mx-2">Two Passes (2): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -116,7 +120,9 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="underline card-title">TRES</h1>
+                                                <NavLink to='/tickets/'>
+                                                    <h1 className="underline card-title">TRES</h1>
+                                                </NavLink>
                                                 <p className="mx-2">Three Passes (3): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -127,7 +133,9 @@ export default function Tickets(){
                                         <div className="card bg-dark ">
                                             <img src={pro1} className="ticket card-img rounded-0 rounded-3" alt="..."/>
                                             <div className="card-img-overlay flex-column d-flex align-items-center justify-content-center text-white">
-                                                <h1 className="underline card-title">QUATRO</h1>
+                                                <NavLink to='/tickets/'>
+                                                    <h1 className="underline card-title">QUATRO</h1>
+                                                </NavLink>
                                                 <p className="mx-2">Four Passes (4): <span> $75</span></p>
                                                 <p className="mx-2 fs-5" style={{fontStyle: 'italic'}}>Valued at $100*</p>
                                             </div>
@@ -140,7 +148,7 @@ export default function Tickets(){
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="flush-headingThree">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    <h4>Residency Keys</h4>
+                                    <h2>MEMBERSHIP</h2>
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -159,10 +167,8 @@ export default function Tickets(){
                                                         </h1> 
                                                     </div>
                                                     <div className="card-body">
-                                                            <button className="btn btn-danger mb-3">
-                                                                <h4>Purchase</h4>
-                                                            </button>
                                                         <h4 className="text-white fs-6" style={{fontStyle: 'italic'}}>${key.amount} value for ${key.price}</h4>
+                                                        <NavLink to='/tickets/' className="stretched-link"/>
                                                     </div>
                                                 </div>
                                             </div>

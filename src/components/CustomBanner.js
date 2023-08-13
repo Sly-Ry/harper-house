@@ -3,7 +3,7 @@ export default function CustomBanner({ title, background, mxh }) {
     return ( 
         <>
             <div>
-                <div className="carousel-inner">
+                <div className="carousel-inner banner-line">
                     <div className="banner-box c-banner-box" data-bs-interval="8000"
                         style={{maxHeight: mxh}}
                     >

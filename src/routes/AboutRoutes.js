@@ -9,6 +9,7 @@ import { Staff } from '../pages/ABOUT/Staff';
 import { Board } from '../pages/ABOUT/Board';
 import { Contact } from '../pages/ABOUT/Contact';
 import { FAQ } from '../pages/ABOUT/FAQ';
+import StartToTop from "../utils/StartToTop";
 
 
 export default function AboutRoutes() {
@@ -18,6 +19,7 @@ export default function AboutRoutes() {
                 <div className="row">
                     <div className="col-sm-2"></div>
                     <div className="col-sm-8 p-0">
+                        <StartToTop />
                         <Routes>
                             <Route index element={<About />} />
                             <Route path='the-theatre/*' >

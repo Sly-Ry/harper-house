@@ -6,7 +6,7 @@ export default function JumbotronLayout() {
 
     return ( 
         <>
-            <div id="carouselExampleFade" className="banner-box carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleFade" className="banner-box banner-line carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="8000">
                             <img src={photo1} className="d-block w-100" alt=""/>

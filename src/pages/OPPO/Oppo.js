@@ -1,6 +1,9 @@
+import StartToTop from "../../utils/StartToTop";
+
 export function Oppo() {
     return (
         <>
+            <StartToTop />
             <div className="oppo">
                 <h1 className="text-center">WORKING AT HARPER</h1>
                 <div className="head-body fs-6">

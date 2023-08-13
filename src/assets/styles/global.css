@@ -89,9 +89,13 @@ li {
 
 
 /* BANNER STYLING */
+.banner-line {
+  border-bottom: 4px solid goldenrod;
+  box-shadow: 0 1px 5px black;
+}
 
 .banner-box h2 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 8rem;
   font-weight: bold;
   color: white;
@@ -99,6 +103,9 @@ li {
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.685);
 }
 
+.footer-line {
+  border-top: 3px solid goldenrod;
+}
 
 /* PAGE STYLE */
 .page{

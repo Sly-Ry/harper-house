@@ -1,6 +1,9 @@
+import StartToTop from "../../utils/StartToTop";
+
 export function Archives() {
     return (
         <>
+            <StartToTop />
             <div className="archives">
                 <h1 className="text-center">THE ARCHIVES</h1>
                 <div className="head-body fs-6">

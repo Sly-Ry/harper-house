@@ -1,6 +1,9 @@
+import StartToTop from "../../utils/StartToTop";
+
 export function Support() {
     return (
         <>
+            <StartToTop />
             <div className="support">
                 <h1 className="text-center">HOW TO SUPPORT HARPER</h1>
                 <div className="head-body fs-6">

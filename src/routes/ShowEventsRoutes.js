@@ -6,10 +6,12 @@ import { SeasonPass } from '../pages/SHOWS/SeasonPass';
 import { Subscribe } from '../pages/SHOWS/Subscribe';
 import { Discounts } from '../pages/SHOWS/Discounts';
 import { Calendar } from '../pages/SHOWS/Calendar';
+import StartToTop from "../utils/StartToTop";
 
 export default function ShowsEventsRoutes() {
     return (
         <>
+            <StartToTop />
             <Routes>
                 <Route index element={<ShowsEvents />} />
                 <Route path='current-season' element={<CurrentSeason />} />

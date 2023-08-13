@@ -44,6 +44,7 @@ a.nav-bar__top-link:visited,
 .nav-bar__bottom {
     background-color: #0000007a;
     height: 80px;
+    transition: height .15s ease-in;
 }
 
 .nav-bar__logo {
@@ -184,7 +185,7 @@ a:visited:hover .arrow::after  {
         display: flex;
         position: relative;
         height: 50px;
-        top: -50px;
+        top: -50px;        
     }
 
     .form-box .dropdown-box {

@@ -22,17 +22,17 @@ export default function ExtensionsLayout() {
                             rounded-0
                             m-4"
                         >
-                            <img src={subscribePhoto} className="card-img  px-5" alt="" />
+                            <img src={subscribePhoto} className="card-img px-5" alt="" />
                             <div className="
                                 card-img-overlay
                                 text-white
-                                text-center
                                 d-flex
-                                flex-column
                                 justify-content-center
-                                align-items-center"
+                                align-items-center 
+                                mt-5
+                                pt-5"
                             >
-                                <h1 className="card-title">Subscribe</h1>
+                                <h1 className="card-title mt-5 pt-5">Subscribe</h1>
                                 <NavLink to="/shows-events/subscribe" className="stretched-link"/>
                             </div>
                         </div>
@@ -44,20 +44,20 @@ export default function ExtensionsLayout() {
                             card 
                             bg-dark 
                             text-white
-                            rounded-
+                            rounded-0
                             m-4"
                         >
                             <img src={joinPhoto} className="card-img px-5" alt="" />
                             <div className="
                                 card-img-overlay
                                 text-white
-                                text-center
                                 d-flex
-                                flex-column
                                 justify-content-center
-                                align-items-center"
+                                align-items-center
+                                mt-5
+                                pt-5"
                             >
-                                <h1 className="card-title">Volunteer</h1>
+                                <h1 className="card-title mt-5 pt-5">Volunteer</h1>
                                 <NavLink to="/oppo/volunteer" className="stretched-link"/>
                             </div>
                         </div>

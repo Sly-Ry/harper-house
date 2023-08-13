@@ -6,7 +6,7 @@ export default function Banner({ title }) {
     return ( 
         <>
             <div>
-                <div className="carousel-inner">
+                <div className="carousel-inner banner-line">
                     <div className="banner-box" data-bs-interval="8000"
                         style={{maxHeight: '98vh'}}
                     >
