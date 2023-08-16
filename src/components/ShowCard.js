@@ -4,7 +4,7 @@ export default function ShowCard({ img, fontColor, fontFamily, title, date, syno
     return (
         <>
             <div className="
-                col-sm-10 
+                col-12 
                 col-md-8 
                 col-lg-7 
                 col-xl-5 
