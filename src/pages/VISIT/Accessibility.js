@@ -1,15 +1,12 @@
-import '../../assets/styles/Accessibility.css'
-import Banner from '../../components/Banner';
+import '../../assets/styles/Accessibility.css';
 
 export function Accessibility() {
     return (
         <>
             <div className="access">
-                {/* Banner */}
-                <Banner title={"Accessibility"}/>
                 <div className="container-fluid">
                     <div className="row d-flex justify-content-center ">
-                        <div className="col-4 d-flex flex-column justify-content-center p-5">
+                        <div className="col-lg-5 d-flex flex-column justify-content-center p-5">
                             <h5>Harper House has always made inclusivity and accessibility a mainstay of our productions and events.</h5>
                             <h3>Assistive-Listening Devices</h3> 
                             <p>

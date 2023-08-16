@@ -1,13 +1,10 @@
 import '../../assets/styles/Parking.css'
-import Banner from '../../components/Banner';
 import img from '../../assets/images/parking-map.jpg'
 
 export function Parking() {
     return (
         <>
             <div className="parking">
-                {/* Banner */}
-                <Banner title={"Parking"}/>
                 <div className="container-fluid">
                     <div className="row row-cols-md-1 row-cols-lg-2 d-flex justify-content-center align-items-center">
                         <div className="col-12 col-sm-12 col-lg-10 col-xl-6 col-xxl-5 p-5">

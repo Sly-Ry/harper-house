@@ -12,6 +12,7 @@ export default function ShowsEventsRoutes() {
     return (
         <>
             <StartToTop />
+            
             <Routes>
                 <Route index element={<ShowsEvents />} />
                 <Route path='current-season' element={<CurrentSeason />} />

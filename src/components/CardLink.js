@@ -19,7 +19,7 @@ export default function CardLink({ subtitle, title }) {
                                         return (
                                             <div key={item.id} className="
                                                 col-12 
-                                                col-md-8 
+                                                col-md-10 
                                                 col-xl-5 
                                                 col-xxl-4 
                                                 mx-4 

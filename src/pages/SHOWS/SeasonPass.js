@@ -9,7 +9,7 @@ export function SeasonPass() {
             <div className="season page">
                 {/* Banner */}
                 <Banner title={"Season Pass"}/>
-                <div className="container-fluid">
+                <div className="container-fluid bg-white">
                         {/* SINGLE PASS */}
                     <div className="row d-flex justify-content-center">
                         <div className="col d-flex justify-content-center p-5">
