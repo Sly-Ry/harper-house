@@ -21,22 +21,26 @@ export default function JumbotronLayout() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={photo2} className="d-block w-100" alt=""/>
-                            <div className='info'>
-                                <h2 className='welcome fs-1'>Welcome to<span> HARPER HOUSE</span></h2>
-                                <div className="info-box">
-                                    <p className='quote col-5 col-md-6 col-lg-12 text-start'>There's no place like home</p>
-                                    <p className='quote-author'> - <span>Dorothy</span></p>
+                            <img src={photo2} className="card-img d-block w-100" alt=""/>
+                            <div className='card-img-overlay d-flex flex-column align-items-center justify-content-center text-center'>
+                                <div className='col-5 col-md-10 text-start'>
+                                    <h2 className='welcome'>Welcome to<span> HARPER HOUSE</span></h2>
+                                </div>
+                                <div className="col-8 col-md-7 col-lg-5 col-xl-4 text-white text-center">
+                                    <h4 className='quote'>"There's no place like home."</h4>
+                                    <h5 className='text-end'> - <span>Dorothy</span></h5>
                                 </div>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={photo3} className="d-block w-100" alt=""/>
-                            <div className='info'>
-                                <h2 className='welcome fs-1'>Welcome to<span> HARPER HOUSE</span></h2>
-                                <div className="info-box">
-                                    <p className='quote col-5 col-md-6 col-lg-12 text-start'>There's no place like home</p>
-                                    <p className='quote-author'> - <span>Dorothy</span></p>
+                            <img src={photo3} className="card-img d-block w-100" alt=""/>
+                            <div className='card-img-overlay d-flex flex-column align-items-center justify-content-center text-center'>
+                                <div className='col-5 col-md-10 text-start'>
+                                    <h2 className='welcome'>Welcome to<span> HARPER HOUSE</span></h2>
+                                </div>
+                                <div className="col-8 col-md-7 col-lg-5 col-xl-4 text-white text-center">
+                                    <h4 className='quote'>"There's no place like home."</h4>
+                                    <h5 className='text-end'> - <span>Dorothy</span></h5>
                                 </div>
                             </div>
                         </div>
