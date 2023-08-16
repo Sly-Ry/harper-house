@@ -24,14 +24,14 @@ export function Seasons() {
                                                         <div key={show.id} className="accordion-item">
                                                             <h2 className="accordion-header" id={"flush-heading"+ show.id}>
                                                                 <button 
-                                                                    className="accordion-button collapsed bg-danger" 
+                                                                    className="accordion-button collapsed  rounded-2" 
                                                                     type="button" 
                                                                     data-bs-toggle="collapse" 
                                                                     data-bs-target={"#flush-collapse"+ show.id} 
                                                                     aria-expanded="false" 
                                                                     aria-controls={"flush-collapse"+ show.id}
                                                                 >
-                                                                    <h2 className='text-dark'>{show.title}</h2>
+                                                                    <h2 className='text-dark fs-1'>{show.title.toUpperCase()}</h2>
                                                                 </button>
                                                             </h2>
                                                             <div 
@@ -92,58 +92,6 @@ export function Seasons() {
                                                                             <p>FEATURE COMING SOON</p>
                                                                         </div>
                                                                     </div>
-                                                                    {/* <div className="row py-4">
-                                                                        <div className="col-12">
-                                                                            <div className="accordion accordion-flush" id="accordionFlushExample">
-                                                                                <div className="accordion-item">
-                                                                                    <h2 className="accordion-header" id="flush-headingVideo">
-                                                                                        <button 
-                                                                                            className="accordion-button collapsed" 
-                                                                                            type="button" 
-                                                                                            data-bs-toggle="collapse" 
-                                                                                            data-bs-target="#flush-collapseVideo" 
-                                                                                            aria-expanded="false" 
-                                                                                            aria-controls="flush-collapseVideo"
-                                                                                        >
-                                                                                            <h2 className='text-dark'>Trailer</h2>
-                                                                                        </button>
-                                                                                    </h2>
-                                                                                    <div 
-                                                                                        id="flush-collapseVideo" 
-                                                                                        className="accordion-collapseVideo collapse" 
-                                                                                        aria-labelledby="flush-headingVideo" 
-                                                                                        data-bs-parent="#accordionFlushExample">
-                                                                                        <div className="accordion-body d-flex justify-content-center">
-                                                                                            <iframe width="560" height="315" src={show.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div className="accordion-item">
-                                                                                    <h2 className="accordion-header" id="flush-headingPhoto">
-                                                                                        <button 
-                                                                                            className="accordion-button collapsed" 
-                                                                                            type="button" 
-                                                                                            data-bs-toggle="collapse" 
-                                                                                            data-bs-target="#flush-collapsePhoto" 
-                                                                                            aria-expanded="false" 
-                                                                                            aria-controls="flush-collapsePhoto"
-                                                                                        >
-                                                                                            <h2 className='text-dark'>Photos</h2>
-                                                                                        </button>
-                                                                                    </h2>
-                                                                                    <div 
-                                                                                        id="flush-collapsePhoto" 
-                                                                                        className="accordion-collapsePhoto collapse" 
-                                                                                        aria-labelledby="flush-headingPhoto" 
-                                                                                        data-bs-parent="#accordionFlushExample">
-                                                                                        <div className="accordion-body">
-                                                                                            <h2>img</h2>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div> */}
                                                                 </div>
                                                             </div>
                                                         </div>

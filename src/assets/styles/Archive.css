@@ -34,11 +34,8 @@
 
 .archive-routes p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 26px;
-    font-size: 1.2rem;
-}
-
-.archive-routes p {
+    line-height: 30px;
+    font-size: 1.2rem !important;
     padding: 0;
 }
 

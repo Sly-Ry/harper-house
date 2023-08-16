@@ -183,6 +183,9 @@ li {
   border: none;
 }
 
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 1199px) {
