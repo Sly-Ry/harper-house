@@ -6,7 +6,7 @@ export function FAQ() {
                 <div className="col-12 my-5 py-5"  style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>
                 <h1 className="text-center fs-1 m-0">FAQ</h1>
                 <div className="row row-cols-2 d-flex justify-content-center">
-                    <div className="col-4 mx-5 pb-5">
+                    <div className="col-10 col-lg-4 mx-5 pb-5">
                     {
                         faq.map(items => {
                             if(items.id <= 3) {
@@ -39,8 +39,8 @@ export function FAQ() {
                             else return null;
                         })
                     }    
-                   </div>
-                   <div className="col-4 mx-5 pb-5">
+                    </div>
+                    <div className="col-10 col-lg-4  mx-5 pb-5">
                     {
                         faq.map(items => {
                             if(items.id > 3) {
@@ -73,11 +73,10 @@ export function FAQ() {
                             else return null;
                         })
                     }    
-                   </div>
                     </div>
-                    
-                   <div className="col-12 my-2 py-2" style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>    
                 </div>
+                <div className="col-12 my-2 py-2" style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>    
+            </div>
         </>
     ) 
 }

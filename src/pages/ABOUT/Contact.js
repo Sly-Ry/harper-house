@@ -3,7 +3,7 @@
 export function Contact() {
     return (
         <>
-            <div className="contact bg-white">
+            <div className="archive-routes contact bg-white">
                 <div className="col-12 my-5 py-5" style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>
                 <div className="row d-flex justify-content-center">
                     <h1 className="text-center fs-1">Contact Us</h1>

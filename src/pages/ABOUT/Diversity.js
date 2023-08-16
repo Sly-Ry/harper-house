@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export function Diversity() {
     return (
         <>
-            <div className="Diversity bg-white">
+            <div className="archive-routes diversity bg-white">
                 <div className="col-12 my-5 py-5" style={{backgroundColor: 'rgba(114, 0, 0, 0.911)'}}></div>
                 <div className="row d-flex align-items-center justify-content-center">
                     <div className="row d-flex flex-row align-items-center justify-content-center text-center">
@@ -21,11 +21,11 @@ export function Diversity() {
                             </NavLink>
                         </div>
                     </div>
-                    <div className="col-12 col-md-5 my-3 px-5">
-                        <h2 style={{fontWeight: 'bold', textDecoration: 'underline'}}>DIVERSITY</h2>
+                    <div className="col-12 col-lg-5 my-3 px-5">
+                        <h3 style={{fontWeight: 'bold', textDecoration: 'underline'}}>DIVERSITY</h3>
                         <p style={{lineHeight: '35px'}}>&emsp;&emsp;&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div className="col-12 col-md-5  my-3 px-5">
+                    <div className="col-12 col-lg-5  my-3 px-5">
                         <h3 style={{fontWeight: 'bold', textDecoration: 'underline'}}>INCLUSION</h3>
                         <p style={{lineHeight: '35px'}}>&emsp;&emsp;&emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>

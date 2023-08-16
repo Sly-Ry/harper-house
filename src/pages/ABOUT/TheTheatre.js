@@ -58,13 +58,12 @@ export function TheTheatre() {
                                     <h2 className="accordion-header" id="headingThree">
                                         <button className="accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                             <h2>CORE VIRTUES</h2>
-                                            
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             <p>Our values...</p>
-                                            <ul>
+                                            <ul style={{lineHeight: '30px'}}>
                                                 <li><p>Virtue 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
                                                 <li><p>Virtue 2: Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
                                                 <li><p>Virtue 3: Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
