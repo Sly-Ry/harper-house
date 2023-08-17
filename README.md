@@ -53,3 +53,5 @@ Site Inspiration:
 ![Static Badge](https://img.shields.io/badge/html-1.2%25-red?style=for-the-badge)  
 ![Static Badge](https://img.shields.io/badge/css-6.7%25-purple?style=for-the-badge)  
 ![Static Badge](https://img.shields.io/badge/javaScript-92.1%25-yellow?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/react-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/bootstrap-purple?style=for-the-badge)
