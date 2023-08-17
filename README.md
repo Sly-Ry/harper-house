@@ -3,10 +3,10 @@
 Harper House is a website for an mock "up-and-coming-theatre" of the same name.
 
 ## URL
-https://sly-ry.github.io/harper-house/
+```https://sly-ry.github.io/harper-house/```
 
 ## Usage
-Visit URL: ```https://sly-ry.github.io/harper-house/```
+Visit URL: https://sly-ry.github.io/harper-house/
 
 ### Features:
 + Responsive design
@@ -36,13 +36,13 @@ And please be sure to update tests as appropriate.
 
 ## Credit
 Photos Sources:  
-+ https://unsplash.com/  
-+ https://www.freeimages.com/
-+ https://www.imdb.com/
++ ```https://unsplash.com/``` 
++ ```https://www.freeimages.com/```
++ ```https://www.imdb.com/```
 
 
 Site Inspiration: 
-+ https://zachtheatre.org/
++ ```https://zachtheatre.org/```
 
 ## License
 
